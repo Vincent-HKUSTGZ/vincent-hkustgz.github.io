@@ -71,4 +71,4 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
   -  Surgical LLM and Image Segmentation, Supervisor: [Dr. Jinlin Wu](https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN) and [Dr. Zhen Chen](https://scholar.google.com/citations?user=oVG2zEkAAAAJ&hl=zh-CN)
 
 -  **[Project Participant]** *2022.09-2023.08*, 
-  - Financial Machine Translation, Supervisor: [Prof. Linqi Song](https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en)
+  -  Financial Machine Translation, Supervisor: [Prof. Linqi Song](https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en)
