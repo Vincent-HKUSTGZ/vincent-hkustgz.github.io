@@ -42,20 +42,16 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 ### Under Review & Manuscript
 
-- **Jailbreak Attacks and Defenses Against Large Language Models: A Survey**
+- **Jailbreak Attacks and Defenses Against Large Language Models: A Survey** [[arxiv](https://arxiv.org/abs/2407.04295)]
   Sibo Yi$^\star$, Yule Liu$^\star$, **Zhen Sun$^\star$**, Tianshuo Cong, Xinlei He, Jiaxing Song, Ke Xu, and Qi Li.
 
-  [[arxiv](https://arxiv.org/abs/2407.04295)]
-
-- **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning**
+- **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning** [[arxiv](https://arxiv.org/abs/2411.17453)]
   **Zhen Sun**, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, and Xinyi Huang.
-  [[arxiv](https://arxiv.org/abs/2411.17453)]
-
-- **Quantized Delta Weight Is Safety Keeper**
+  
+- **Quantized Delta Weight Is Safety Keeper** [[arxiv](https://arxiv.org/abs/2411.19530)]
 
   Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
 
-  [[arxiv](https://arxiv.org/abs/2411.19530)]
 
 # 🎖 Honors and Awards
 - 🥈**Kaggle Competitions Expert** ([Vincent Sirius | Expert | Kaggle](https://www.kaggle.com/rdxsun))
