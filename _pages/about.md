@@ -55,13 +55,14 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
   Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
 
 
-# 🎖 Honors and Awards
+# 🥇 Honors and Awards
 - 🥈**Kaggle Competitions Expert** ([Vincent Sirius](https://www.kaggle.com/rdxsun))
 - *2020.04*, MCM/ICM Meritorious Winner
 - *2019 / 2020 / 2021*, Third-class Scholarship of BUPT
 - *2019 / 2020 / 2021*, Excellent Student Leader of BUPT
 
-# 📖 Educations
+# 🎓 Educations
+
 - *2024.08 -  now*, Hong Kong University of Science and Technology (Guangzhou)
 - *2022.08-2023.10*, City University of Hong Kong
 - *2018.09-2022.07*, Beijing University of Posts and Telecommunications
