@@ -63,9 +63,9 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 # 🎓 Educations
 
-- *2024.08-now*, Hong Kong University of Science and Technology (Guangzhou)
-- *2022.08-2023.10*, City University of Hong Kong
-- *2018.09-2022.07*, Beijing University of Posts and Telecommunications
+- *2024.08-now*, PhD in Data Science Analysis, Hong Kong University of Science and Technology (Guangzhou)
+- *2022.08-2023.10*, MSc in Computer Science, City University of Hong Kong
+- *2018.09-2022.07*, BSc in Computer Science and Technology, Beijing University of Posts and Telecommunications
 
 # 💻 Experience
 -  **[Research Assistant]** *2023.06 - 2024.05*, Centre for Artificial Intelligence and Robotics (CAIR) Hong Kong Institute of Science $\&$ Innovation, Chinese Academy of Sciences (HKISI-CAS) - Surgical LLM and Image Segmentation, Supervisor: [Dr. Jinlin Wu](https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN) and [Dr. Zhen Chen](https://scholar.google.com/citations?user=oVG2zEkAAAAJ&hl=zh-CN)
