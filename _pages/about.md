@@ -40,7 +40,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
   [[code]()] 🏆 Best Paper Award
 
-### Under Review & Manuscript
+### Under Review $\&$ Manuscript
 
 - **Jailbreak Attacks and Defenses Against Large Language Models: A Survey** [[arxiv](https://arxiv.org/abs/2407.04295)]
   
