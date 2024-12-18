@@ -54,7 +54,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 
 # 🎖 Honors and Awards
-- 🥈**Kaggle Competitions Expert** ([Vincent Sirius | Expert | Kaggle](https://www.kaggle.com/rdxsun))
+- 🥈**Kaggle Competitions Expert** ([Vincent Sirius](https://www.kaggle.com/rdxsun))
 - *2020.04*, MCM/ICM Meritorious Winner
 - *2019 / 2020 / 2021*, Third-class Scholarship of BUPT
 - *2019 / 2020 / 2021*, Excellent Student Leader of BUPT
