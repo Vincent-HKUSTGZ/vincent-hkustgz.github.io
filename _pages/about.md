@@ -23,8 +23,8 @@ My research interest includes AI Security and Privacy.  (<a href='https://schola
 
 
 # 🔥 News
-- *2022.11*: &nbsp;🎉🎉 Our paper  [AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media](https://dl.acm.org/doi/10.1145/3698387.3700001) receive the **Workshop Best Paper Award** in [SENSYS-SocialMeta'24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
-- *2022.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
+- *2024.11*: &nbsp;🎉🎉 Our paper  [AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media](https://dl.acm.org/doi/10.1145/3698387.3700001) receive the **Workshop Best Paper Award** in [SENSYS-SocialMeta'24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
+- *2024.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
 
 # 📝 Publications
 
