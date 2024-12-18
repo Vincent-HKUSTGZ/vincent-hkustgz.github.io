@@ -68,6 +68,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 # 💻 Experience
 -  **[Research Assistant]** *2023.06 - 2024.05*, Centre for Artificial Intelligence and Robotics (CAIR) Hong Kong Institute of Science \& Innovation, Chinese Academy of Sciences (HKISI-CAS) 
-  - Surgical LLM and Image Segmentation, Supervisor: [Dr. Jinlin Wu](https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN) and [Dr. Zhen Chen](https://scholar.google.com/citations?user=oVG2zEkAAAAJ&hl=zh-CN)
-- **[Project Participant]** *2022.09-2023.08*, 
+  -  Surgical LLM and Image Segmentation, Supervisor: [Dr. Jinlin Wu](https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN) and [Dr. Zhen Chen](https://scholar.google.com/citations?user=oVG2zEkAAAAJ&hl=zh-CN)
+
+-  **[Project Participant]** *2022.09-2023.08*, 
   - Financial Machine Translation, Supervisor: [Prof. Linqi Song](https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en)
