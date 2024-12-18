@@ -38,7 +38,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
   In Proceedings of the Third International Workshop on Social and Metaverse Computing, Sensing and Networking, pp. 50-56. 2024.
 
-  [[code]()] 🏆 Best Paper Award
+  [[code](https://github.com/Zonmgin-Zhang/AdSpectorX)] 🏆 Best Paper Award
 
 ### Under Review $\&$ Manuscript
 
