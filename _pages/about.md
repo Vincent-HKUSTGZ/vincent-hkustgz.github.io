@@ -63,7 +63,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 # 🎓 Educations
 
-- *2024.08 -  now*, Hong Kong University of Science and Technology (Guangzhou)
+- *2024.08-now*, Hong Kong University of Science and Technology (Guangzhou)
 - *2022.08-2023.10*, City University of Hong Kong
 - *2018.09-2022.07*, Beijing University of Posts and Telecommunications
 
