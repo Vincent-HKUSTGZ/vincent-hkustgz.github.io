@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhen SUN's Homepage"
+title                    : "Zhen Sun's Homepage"
 description              : "PhD Student at The Hong Kong University of Science and Technology (Guangzhou)"
 repository               : "Vincent-HKUSTGZ/Vincent-HKUSTGZ.github.io"
 google_scholar_stats_use_cdn : true
