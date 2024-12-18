@@ -17,42 +17,59 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a PhD student in DSA Thrust of the Information Hub at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/) advised by Prof. [Xinlei He](https://xinleihe.github.io/). 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes AI Security and Privacy.  ( <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a>  <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.11*: &nbsp;🎉🎉 Our paper  [AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media](https://dl.acm.org/doi/10.1145/3698387.3700001) receive the **Workshop Best Paper Award** in [SENSYS-SocialMeta '24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
+- *2022.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+$^\star$: Equal contribution; $^\dagger$: Corresponding author
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+### Conference
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- <span style="color: orange;">**[SENSYS-SocialMeta'24]**</span> AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+  Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, and **Zhen Sun$^\dagger$**.
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+  In Proceedings of the Third International Workshop on Social and Metaverse Computing, Sensing and Networking, pp. 50-56. 2024.
+
+  [[code]()] 🏆 Best Paper Award
+
+### Under Review & Manuscript
+
+- **Jailbreak Attacks and Defenses Against Large Language Models: A Survey**
+  Sibo Yi$^\star$, Yule Liu$^\star$, **Zhen Sun$^\star$**, Tianshuo Cong, Xinlei He, Jiaxing Song, Ke Xu, and Qi Li.
+
+  [[arxiv](https://arxiv.org/abs/2407.04295)]
+
+- **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning**
+  **Zhen Sun**, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, and Xinyi Huang.
+  [[arxiv](https://arxiv.org/abs/2411.17453)]
+
+- **Quantized Delta Weight Is Safety Keeper**
+
+  Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
+
+  [[arxiv](https://arxiv.org/abs/2411.19530)]
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- 🥈**Kaggle Competitions Expert** ([Vincent Sirius | Expert | Kaggle](https://www.kaggle.com/rdxsun))
+- *2020.04*, MCM/ICM Meritorious Winner
+- *2019 / 2020 / 2021*, Third-class Scholarship of BUPT
+- *2019 / 2020 / 2021*, Excellent Student Leader of BUPT
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.08 -  now*, Hong Kong University of Science and Technology (Guangzhou)
+- *2022.08-2023.10*, City University of Hong Kong
+- *2018.09-2022.07*, Beijing University of Posts and Telecommunications
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Experience
+-  **[Research Assistant]** *2023.06 - 2024.05*, Centre for Artificial Intelligence and Robotics (CAIR) Hong Kong Institute of Science \& Innovation, Chinese Academy of Sciences (HKISI-CAS) 
+  - Surgical LLM and Image Segmentation, Supervisor: [Dr. Jinlin Wu](https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN) and [Dr. Zhen Chen](https://scholar.google.com/citations?user=oVG2zEkAAAAJ&hl=zh-CN)
+- **[Project Participant]** *2022.09-2023.08*, 
+  - Financial Machine Translation, Supervisor: [Prof. Linqi Song](https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en)
