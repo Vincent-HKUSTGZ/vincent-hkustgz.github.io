@@ -54,6 +54,14 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
   Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
 
+- **On the Generalization Ability of Machine-Generated Text Detectors**[[arxiv](https://arxiv.org/abs/2412.17242)]
+
+  Yule Liu, Zhiyuan Zhong, Yifan Liao, **Zhen Sun**, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He
+
+- **Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media**[[arxiv](https://arxiv.org/abs/2412.18148)]
+
+  **Zhen Sun$^\star$**, Zongmin Zhang$^\star$, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He
+
 
 # 🥇 Honors and Awards
 - 🥈**Kaggle Competitions Expert** ([Vincent Sirius](https://www.kaggle.com/rdxsun))
