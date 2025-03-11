@@ -23,6 +23,7 @@ My research interest includes AI Security and Privacy.  (<a href='https://schola
 
 
 # 🔥 News
+- *2025.3*:&nbsp;🎉🎉 One Paper accepted in [IEEE S&P 2025](https://sp2025.ieee-security.org/)
 - *2024.11*: &nbsp;🎉🎉 Our paper won the **<span style="color: red;">Best Paper Award</span>** of  [SENSYS-SocialMeta'24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
 - *2024.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
 
@@ -32,7 +33,11 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 ### Conference
 
-- <span style="color: orange;">**[SENSYS-SocialMeta'24]**</span> AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media
+- <span style="color: orange;">**[IEEE S&P'25]**</span> **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning** [[arxiv](https://arxiv.org/abs/2411.17453)]
+
+  **Zhen Sun**, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, and Xinyi Huang.
+
+- <span style="color: orange;">**[SENSYS-SocialMeta'24]**</span> **AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media**
 
   Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, and **Zhen Sun$^\dagger$**.
 
@@ -46,10 +51,6 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
   
   Sibo Yi$^\star$, Yule Liu$^\star$, **Zhen Sun$^\star$**, Tianshuo Cong, Xinlei He, Jiaxing Song, Ke Xu, and Qi Li.
   
-- **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning** [[arxiv](https://arxiv.org/abs/2411.17453)]
-
-  **Zhen Sun**, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, and Xinyi Huang.
-
 - **Quantized Delta Weight Is Safety Keeper** [[arxiv](https://arxiv.org/abs/2411.19530)]
 
   Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
