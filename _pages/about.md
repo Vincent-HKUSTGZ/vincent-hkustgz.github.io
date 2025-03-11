@@ -33,9 +33,11 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 ### Conference
 
-- <span style="color: orange;">**[IEEE S$\&$P'25]**</span> **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning** [[arxiv](https://arxiv.org/abs/2411.17453)]
+- <span style="color: orange;">**[IEEE S$\&$P'25]**</span> **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning** 
 
   **Zhen Sun**, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, and Xinyi Huang.
+
+  <code class="language-plaintext highlighter-rouge">CCF-A</code> [[arxiv](https://arxiv.org/abs/2411.17453)] (AR: 257/1740=14.8%, Cycle 2 AR: 151/1001=15.1%)
 
 - <span style="color: orange;">**[SENSYS-SocialMeta'24]**</span> **AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media**
 
@@ -43,7 +45,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
   In Proceedings of the Third International Workshop on Social and Metaverse Computing, Sensing and Networking, pp. 50-56. 2024.
 
-  [[code](https://github.com/Zonmgin-Zhang/AdSpectorX)] 🏆 Best Paper Award
+  <code class="language-plaintext highlighter-rouge">CCF-B</code>[[code](https://github.com/Zonmgin-Zhang/AdSpectorX)] 🏆 Best Paper Award
 
 ### Under Review $\&$ Manuscript
 
