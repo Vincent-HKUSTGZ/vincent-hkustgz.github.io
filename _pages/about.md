@@ -23,7 +23,7 @@ My research interest includes AI Security and Privacy.  (<a href='https://schola
 
 
 # 🔥 News
-- *2025.3*:&nbsp;🎉🎉 One Paper accepted in [IEEE S$\&$P 2025](https://sp2025.ieee-security.org/)
+- *2025.3*:&nbsp;🎉🎉 One Paper was accepted in [IEEE S$\&$P 2025](https://sp2025.ieee-security.org/)
 - *2024.11*: &nbsp;🎉🎉 Our paper won the **<span style="color: red;">Best Paper Award</span>** of  [SENSYS-SocialMeta'24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
 - *2024.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
 
@@ -64,6 +64,14 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 - **Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media**[[arxiv](https://arxiv.org/abs/2412.18148)]
 
   **Zhen Sun$^\star$**, Zongmin Zhang$^\star$, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He
+
+- **FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts**[[arxiv](https://arxiv.org/abs/2502.21059)]
+
+  Ziyi Zhang$^\star$, **Zhen Sun$^\star$**, Zongmin Zhang, Jihui Guo, Xinlei He
+
+- **The Rising Threat to Emerging AI-Powered Search Engines**[[arxiv](https://arxiv.org/abs/2502.04951)]
+
+  Zeren Luo, Zifan Peng, Yule Liu, **Zhen Sun**, Mingchen Li, Jingyi Zheng, Xinlei He
 
 
 # 🥇 Honors and Awards
