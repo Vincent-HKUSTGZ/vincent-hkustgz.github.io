@@ -23,7 +23,7 @@ My research interest includes AI Security and Privacy.  (<a href='https://schola
 
 
 # 🔥 News
-- *2025.3*:&nbsp;🎉🎉 One Paper was accepted in [IEEE S$\&$P 2025](https://sp2025.ieee-security.org/)
+- *2025.3*:&nbsp;🎉🎉 PEFTGuard got accepted in [IEEE S$\&$P 2025](https://sp2025.ieee-security.org/)
 - *2024.11*: &nbsp;🎉🎉 Our paper won the **<span style="color: red;">Best Paper Award</span>** of  [SENSYS-SocialMeta'24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
 - *2024.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
 
@@ -73,8 +73,24 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
   Zeren Luo, Zifan Peng, Yule Liu, **Zhen Sun**, Mingchen Li, Jingyi Zheng, Xinlei He
 
+# 👨‍🎓Services
+
+### Reviewer of Conference
+
+- ICML
+- CVPR
+- SaTML 
+- EuroS$\&$P
+- AsiaCCS
+- AAAI
+
+### Reviewer of Journals
+
+- IEEE Transactions on Dependable and Secure Computing (TDSC)
+- ACM Transactions on Privacy and Security (TOPS)
 
 # 🥇 Honors and Awards
+
 - 🥈**Kaggle Competitions Expert** ([Vincent Sirius](https://www.kaggle.com/rdxsun))
 - *2020.04*, MCM/ICM Meritorious Winner
 - *2019 / 2020 / 2021*, Third-class Scholarship of BUPT
