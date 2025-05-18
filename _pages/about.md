@@ -33,11 +33,29 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 ### Conference
 
+- <span style="color: orange;">**[ACL Main'25]**</span> **Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media**
+
+  **Zhen Sun$^\star$**, Zongmin Zhang$^\star$, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He
+
+  <code class="language-plaintext highlighter-rouge">CCF-A</code> [[arxiv](https://arxiv.org/abs/2412.18148)]
+
 - <span style="color: orange;">**[IEEE S$\&$P'25]**</span> **PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning** 
 
   **Zhen Sun**, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, and Xinyi Huang.
 
   <code class="language-plaintext highlighter-rouge">CCF-A</code> [[arxiv](https://arxiv.org/abs/2411.17453)] (AR: 257/1740=14.8%, Cycle 2 AR: 151/1001=15.1%)
+
+- <span style="color: orange;">**[KDD D&B'25]** </span> **On the Generalization Ability of Machine-Generated Text Detectors**
+
+  Yule Liu$^\star$, Zhiyuan Zhong$^\star$, Yifan Liao, **Zhen Sun**, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He
+
+  <code class="language-plaintext highlighter-rouge">CCF-A</code> [[arxiv](https://arxiv.org/abs/2412.17242)]
+
+- <span style="color: orange;">**[KDD D&B'25]** </span> **TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors**
+
+  Jingyi Zheng$^\star$, Junfeng Wang$^\star$, **Zhen Sun**, Wenhan Dong, Yule Liu, Xinlei He
+
+  <code class="language-plaintext highlighter-rouge">CCF-A</code> [[arxiv](https://arxiv.org/abs/2503.08708)]
 
 - <span style="color: orange;">**[SENSYS-SocialMeta'24]**</span> **AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media**
 
@@ -57,14 +75,6 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
   Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
 
-- **On the Generalization Ability of Machine-Generated Text Detectors**[[arxiv](https://arxiv.org/abs/2412.17242)]
-
-  Yule Liu, Zhiyuan Zhong, Yifan Liao, **Zhen Sun**, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He
-
-- **Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media**[[arxiv](https://arxiv.org/abs/2412.18148)]
-
-  **Zhen Sun$^\star$**, Zongmin Zhang$^\star$, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He
-
 - **FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts**[[arxiv](https://arxiv.org/abs/2502.21059)]
 
   Ziyi Zhang$^\star$, **Zhen Sun$^\star$**, Zongmin Zhang, Jihui Guo, Xinlei He
@@ -83,6 +93,7 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 - EuroS$\&$P
 - AsiaCCS
 - AAAI
+- MM
 
 ### Reviewer of Journals
 
