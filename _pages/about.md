@@ -23,6 +23,7 @@ My research interest includes AI Security and Privacy.  (<a href='https://schola
 
 
 # 🔥 News
+- *2025.5*:&nbsp;🎉🎉(AIGT detection) One paper got accepted in ACL 2025; Two paper got accepted in KDD  D&B track 2025
 - *2025.3*:&nbsp;🎉🎉 PEFTGuard got accepted in [IEEE S$\&$P 2025](https://sp2025.ieee-security.org/)
 - *2024.11*: &nbsp;🎉🎉 Our paper won the **<span style="color: red;">Best Paper Award</span>** of  [SENSYS-SocialMeta'24](https://dl.acm.org/doi/proceedings/10.1145/3698387).
 - *2024.06*: &nbsp;🎉🎉 I receive my firm PhD offer from HKUST(GZ).
