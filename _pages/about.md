@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student in DSA Thrust of the Information Hub at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/) advised by Prof. [Xinlei He](https://xinleihe.github.io/). 
-
-My research interest includes AI Security and Privacy.  (<a href='https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en'></a><a href='https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am a PhD student in DSA Thrust of the Information Hub at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/) advised by Prof. [Xinlei He](https://xinleihe.github.io/). My research interest includes AI Security and Privacy.  (<a href='https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en'></a><a href='https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
