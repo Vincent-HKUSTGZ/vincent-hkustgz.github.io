@@ -21,6 +21,7 @@ I am a PhD student in DSA Thrust of the Information Hub at [Hong Kong University
 
 
 # 🔥 News
+- 2025.09: 🎉🎉 Our paper [FC-Attack](https://arxiv.org/abs/2502.21059) has been accepted to EMNLP Findings.
 - *2025.06*:&nbsp;🎉🎉Our paper on the [security of LLM-based search](https://arxiv.org/abs/2502.04951) has been accepted to USENIX Security 2025.
 - *2025.05*:&nbsp;🎉🎉(AIGT detection) One paper got accepted in ACL 2025; Two paper got accepted in KDD  D&B track 2025
 - *2025.3*:&nbsp;🎉🎉 PEFTGuard got accepted in [IEEE S$\&$P 2025](https://sp2025.ieee-security.org/)
@@ -32,6 +33,12 @@ I am a PhD student in DSA Thrust of the Information Hub at [Hong Kong University
 $^\star$: Equal contribution; $^\dagger$: Corresponding author
 
 ### Conference
+
+- <span style="color: orange;">**[EMNLP'25 Findings]**</span>**FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts**
+
+  Ziyi Zhang$^\star$, **Zhen Sun$^\star$**, Zongmin Zhang, Jihui Guo, Xinlei He
+
+  <code class="language-plaintext highlighter-rouge">CCF-B</code> [[arxiv](https://arxiv.org/abs/2502.21059)]
 
 - <span style="color: orange;">**[USENIX Security'25]**</span> Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search
 
@@ -80,14 +87,6 @@ $^\star$: Equal contribution; $^\dagger$: Corresponding author
 - **Quantized Delta Weight Is Safety Keeper** [[arxiv](https://arxiv.org/abs/2411.19530)]
 
   Yule Liu, **Zhen Sun,** Xinlei He, and Xinyi Huang
-
-- **FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts**[[arxiv](https://arxiv.org/abs/2502.21059)]
-
-  Ziyi Zhang$^\star$, **Zhen Sun$^\star$**, Zongmin Zhang, Jihui Guo, Xinlei He
-
-- **The Rising Threat to Emerging AI-Powered Search Engines**[[arxiv](https://arxiv.org/abs/2502.04951)]
-
-  Zeren Luo, Zifan Peng, Yule Liu, **Zhen Sun**, Mingchen Li, Jingyi Zheng, Xinlei He
 
 # 👨‍🎓Services
 
