@@ -21,7 +21,7 @@ I am a PhD student in DSA Thrust of the Information Hub at [Hong Kong University
 
 
 # 🔥 News
-- 2025.09: 🎉🎉Our paper 6DAttack has been accepted to 2026 AAAI Oral.
+- 2025.11: 🎉🎉 Our paper 6DAttack has been accepted to 2026 AAAI Oral.
 - 2025.09: 🎉🎉 Our paper [FC-Attack](https://arxiv.org/abs/2502.21059) has been accepted to 2025 EMNLP Findings.
 - *2025.06*:&nbsp;🎉🎉Our paper on the [security of LLM-based search](https://arxiv.org/abs/2502.04951) has been accepted to USENIX Security 2025.
 - *2025.05*:&nbsp;🎉🎉(AIGT detection) One paper got accepted in ACL 2025; Two paper got accepted in KDD  D&B track 2025
