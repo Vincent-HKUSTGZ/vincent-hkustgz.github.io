@@ -46,6 +46,32 @@ redirect_from:
   <span class="interest-chip">AI For Safety</span>
 </div>
 
+<span class="anchor" id="news"></span>
+## News
+
+<div class="content-panel">
+  <div class="news-group">
+    <h3 class="news-group__title">Paper Updates</h3>
+    <ul class="news-clean-list">
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2026.01</span><span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at ICLR 2026.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.12</span><span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at AAAI 2026 as an Oral presentation.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.09</span><span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at EMNLP 2025 Findings.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.09</span><span><a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at NeurIPS 2025.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.06</span><span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at USENIX Security 2025.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.05</span><span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at ACL 2025, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at KDD 2025.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.03</span><span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at IEEE S&amp;P 2025.</span></li>
+    </ul>
+  </div>
+  <div class="news-group">
+    <h3 class="news-group__title">Awards and Milestones</h3>
+    <ul class="news-clean-list">
+      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2025.12</span><span>I received the 2025 DSA Excellent Research Award.</span></li>
+      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2024.11</span><span>AdSpectorX received the Best Paper Award at SENSYS-SocialMeta 2024.</span></li>
+      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2024.06</span><span>I received my firm PhD offer from HKUST(GZ).</span></li>
+    </ul>
+  </div>
+</div>
+
 <span class="anchor" id="selected-works"></span>
 ## Selected Papers
 
@@ -102,32 +128,6 @@ redirect_from:
     <strong class="paper-card__title">AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media</strong>
     <span class="paper-card__authors">Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, <strong>Zhen Sun</strong><sup>&dagger;</sup>.</span>
   </a>
-</div>
-
-<span class="anchor" id="news"></span>
-## News
-
-<div class="content-panel">
-  <div class="news-group">
-    <h3 class="news-group__title">Paper Updates</h3>
-    <ul class="news-clean-list">
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2026.01</span><span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at ICLR 2026.</span></li>
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.12</span><span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at AAAI 2026 as an Oral presentation.</span></li>
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.09</span><span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at EMNLP 2025 Findings.</span></li>
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.09</span><span><a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at NeurIPS 2025.</span></li>
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.06</span><span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at USENIX Security 2025.</span></li>
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.05</span><span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at ACL 2025, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at KDD 2025.</span></li>
-      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.03</span><span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at IEEE S&amp;P 2025.</span></li>
-    </ul>
-  </div>
-  <div class="news-group">
-    <h3 class="news-group__title">Awards and Milestones</h3>
-    <ul class="news-clean-list">
-      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2025.12</span><span>I received the 2025 DSA Excellent Research Award.</span></li>
-      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2024.11</span><span>AdSpectorX received the Best Paper Award at SENSYS-SocialMeta 2024.</span></li>
-      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2024.06</span><span>I received my firm PhD offer from HKUST(GZ).</span></li>
-    </ul>
-  </div>
 </div>
 
 <span class="anchor" id="services"></span>
