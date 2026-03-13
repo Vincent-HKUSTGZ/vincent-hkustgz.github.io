@@ -60,7 +60,7 @@ redirect_from:
   <a class="paper-card paper-card--ccf-a" href="https://aclanthology.org/2025.acl-long.1120/">
     <span class="paper-card__venue">ACL 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</strong>
-    <span class="paper-card__authors"><strong>Zhen Sun</strong>, Zongmin Zhang, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</span>
+    <span class="paper-card__authors"><strong>Zhen Sun<sup>*</sup></strong>, Zongmin Zhang<sup>*</sup>, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</span>
   </a>
   <a class="paper-card paper-card--ccf-b" href="https://arxiv.org/abs/2502.21059">
     <span class="paper-card__venue">EMNLP 2025 Findings <span class="paper-card__tag">CCF-B</span></span>
