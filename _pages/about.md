@@ -53,54 +53,62 @@ redirect_from:
 </div>
 
 <span class="anchor" id="selected-works"></span>
-## Selected Papers <span class="section-badge">CCF-A</span>
+## Selected Papers
 
 <p class="section-sub"><sup>*</sup> denotes equal contribution. <sup>&dagger;</sup> denotes corresponding author.</p>
 
 <div class="card-grid">
   <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2411.17453">
-    <span class="paper-card__venue">IEEE S&amp;P 2025</span>
+    <span class="paper-card__venue">IEEE S&amp;P 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</strong>
     <span class="paper-card__authors"><strong>Zhen Sun</strong>, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, Xinyi Huang.</span>
   </a>
   <a class="paper-card paper-card--ccf-a" href="https://aclanthology.org/2025.acl-long.1120/">
-    <span class="paper-card__venue">ACL 2025</span>
+    <span class="paper-card__venue">ACL 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</strong>
     <span class="paper-card__authors"><strong>Zhen Sun</strong>, Zongmin Zhang, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</span>
   </a>
+  <a class="paper-card paper-card--ccf-b" href="https://arxiv.org/abs/2502.21059">
+    <span class="paper-card__venue">EMNLP 2025 Findings <span class="paper-card__tag">CCF-B</span></span>
+    <strong class="paper-card__title">FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts</strong>
+    <span class="paper-card__authors">Ziyi Zhang<sup>*</sup>, <strong>Zhen Sun</strong><sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.</span>
+  </a>
   <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2503.08708">
-    <span class="paper-card__venue">KDD 2025</span>
+    <span class="paper-card__venue">KDD 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors</strong>
     <span class="paper-card__authors">Jingyi Zheng, Junfeng Wang, <strong>Zhen Sun</strong>, Wenhan Dong, Yule Liu, Xinlei He.</span>
   </a>
   <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2512.19058">
-    <span class="paper-card__venue">AAAI 2026 <span class="paper-card__tag">Oral</span></span>
+    <span class="paper-card__venue">AAAI 2026 <span class="paper-card__tag">CCF-A · Oral</span></span>
     <strong class="paper-card__title">6DAttack: Backdoor Attacks in the 6DoF Pose Estimation</strong>
     <span class="paper-card__authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</span>
   </a>
+  <a class="paper-card" href="https://openreview.net/forum?id=DJkQ236C8B">
+    <span class="paper-card__venue">ICLR 2026</span>
+    <strong class="paper-card__title">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</strong>
+    <span class="paper-card__authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</span>
+  </a>
   <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2412.17242">
-    <span class="paper-card__venue">KDD 2025</span>
+    <span class="paper-card__venue">KDD 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing</strong>
     <span class="paper-card__authors">Yule Liu, Zhiyuan Zhong, Yifan Liao, <strong>Zhen Sun</strong>, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He.</span>
   </a>
   <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2502.04951">
-    <span class="paper-card__venue">USENIX Security 2025</span>
+    <span class="paper-card__venue">USENIX Security 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</strong>
     <span class="paper-card__authors">Zeren Luo, Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Jingyi Zheng, Xinlei He.</span>
   </a>
   <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2509.18874">
-    <span class="paper-card__venue">NeurIPS 2025</span>
+    <span class="paper-card__venue">NeurIPS 2025 <span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">CHASM: Unveiling Covert Advertisements on Chinese Social Media</strong>
     <span class="paper-card__authors">Jingyi Zheng, Tianyi Hu, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Zifan Peng, Wenhan Dong, Xinlei He.</span>
   </a>
+  <a class="paper-card paper-card--award" href="#">
+    <span class="paper-card__venue">SENSYS-SocialMeta 2024 <span class="paper-card__tag">Best Paper</span></span>
+    <strong class="paper-card__title">AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media</strong>
+    <span class="paper-card__authors">Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, <strong>Zhen Sun</strong><sup>&dagger;</sup>.</span>
+  </a>
 </div>
-
-<span class="anchor" id="other-papers"></span>
-## Other Accepted Papers
-
-- <span class="meta-pill meta-pill--ccf-b">CCF-B</span> **[EMNLP 2025 Findings]** [FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts](https://arxiv.org/abs/2502.21059). Ziyi Zhang<sup>*</sup>, **Zhen Sun**<sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.
-- <span class="meta-pill meta-pill--venue">ICLR 2026</span> [JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models](https://openreview.net/forum?id=DJkQ236C8B). Zifan Peng, Yule Liu, **Zhen Sun**, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.
-- <span class="meta-pill meta-pill--award">Best Paper Award</span> **[SENSYS-SocialMeta 2024]** AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media. Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, **Zhen Sun**<sup>&dagger;</sup>.
 
 <span class="anchor" id="news"></span>
 ## News
@@ -141,6 +149,8 @@ redirect_from:
         <li>ACM MM</li>
         <li>ICML</li>
         <li>CVPR</li>
+        <li>ACL</li>
+        <li>EMNLP</li>
         <li>SaTML</li>
         <li>EuroS&amp;P</li>
         <li>AsiaCCS</li>
