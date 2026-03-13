@@ -17,22 +17,21 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-<div class="hero-panel">
-  <p class="hero-tag">Trustworthy AI</p>
-  <h1 class="hero-title">Researching safe, secure, and reliable AI systems.</h1>
-  <p class="hero-summary">
-    I am a PhD student in Data Science and Analytics at
-    <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>.
-    I am advised by Prof. <a href="https://xinleihe.github.io/">Xinlei He</a> (Wuhan University, Overseas Outstanding Young Scholar),
-    with primary supervision from Prof. Weijia Heng and co-supervision from Prof. Yutao Yue.
-    My work focuses on Trustworthy AI, especially AI safety, security, privacy, and robust multimodal foundation models.
-  </p>
-  <div class="hero-actions">
-    <a class="btn btn--info btn--small" href="/publications/">Full Publications</a>
-    <a class="btn btn--inverse btn--small" href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">Google Scholar</a>
-    <a class="btn btn--inverse btn--small" href="mailto:zsun344@connect.hkust-gz.edu.cn">Email</a>
+<div class="intro-block">
+  <p class="intro-block__eyebrow">Research Theme</p>
+  <h1 class="intro-block__title">Trustworthy AI</h1>
+  <p class="intro-block__subtitle">AI Safety, AI Security, and AI Privacy</p>
+  <ul class="intro-block__facts">
+    <li>PhD Student in Data Science and Analytics at <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>.</li>
+    <li>Advised by Prof. <a href="https://xinleihe.github.io/">Xinlei He</a> (Wuhan University, Overseas High-Level Young Talent Program), with primary supervision from Prof. Weijia Heng and co-supervision from Prof. Yutao Yue.</li>
+    <li>Working on trustworthy multimodal foundation models, jailbreak and backdoor attacks, AI-generated content detection, and robust evaluation.</li>
+  </ul>
+  <div class="inline-link-list">
+    <a class="inline-link-list__item" href="/publications/">Publications</a>
+    <a class="inline-link-list__item" href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">Google Scholar</a>
+    <a class="inline-link-list__item" href="mailto:zsun344@connect.hkust-gz.edu.cn">Email</a>
   </div>
-  <div class="hero-scholar">
+  <div class="intro-block__scholar">
     <a href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">
       <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations">
     </a>
@@ -42,41 +41,57 @@ redirect_from:
 <span class="anchor" id="research"></span>
 ## Research Interests
 
-I build and study AI systems that remain aligned, robust, and reliable in realistic deployment settings. My recent work spans jailbreak and backdoor attacks, AI-generated content detection, multimodal model safety, and trustworthy evaluation.
-
-<div class="interest-grid">
-  <span class="interest-chip">AI Safety</span>
-  <span class="interest-chip">AI Security</span>
-  <span class="interest-chip">AI Privacy</span>
-  <span class="interest-chip">LLM and VLM Robustness</span>
-  <span class="interest-chip">Trustworthy Multimodal AI</span>
-  <span class="interest-chip">Machine-Generated Content Detection</span>
+<div class="content-panel">
+  <ul class="interest-list">
+    <li>Trustworthy AI</li>
+    <li>AI Safety and Alignment</li>
+    <li>AI Security and Privacy</li>
+    <li>Jailbreak and Backdoor Attacks</li>
+    <li>Robustness of Large Language Models and Vision-Language Models</li>
+    <li>Machine-Generated Content Detection</li>
+    <li>Trustworthy Multimodal Foundation Models</li>
+    <li>Benchmarking and Robust Evaluation</li>
+  </ul>
 </div>
 
 <span class="anchor" id="selected-works"></span>
 ## Selected Works
 
-<div class="selected-grid">
-  <a class="selected-card" href="/publications/#peftguard">
-    <span class="selected-card__venue">IEEE S&amp;P 2025</span>
-    <strong class="selected-card__title">PEFTGuard</strong>
-    <span class="selected-card__text">Detecting backdoor attacks against parameter-efficient fine-tuning.</span>
-  </a>
-  <a class="selected-card" href="/publications/#aigt-social-media">
-    <span class="selected-card__venue">ACL 2025</span>
-    <strong class="selected-card__title">AIGT on Social Media</strong>
-    <span class="selected-card__text">Quantifying and monitoring AI-generated text in the wild.</span>
-  </a>
-  <a class="selected-card" href="/publications/#unsafe-llm-search">
-    <span class="selected-card__venue">USENIX Security 2025</span>
-    <strong class="selected-card__title">Unsafe LLM-Based Search</strong>
-    <span class="selected-card__text">Analyzing and mitigating safety risks in AI web search.</span>
-  </a>
-  <a class="selected-card" href="/publications/#chasm">
-    <span class="selected-card__venue">NeurIPS 2025</span>
-    <strong class="selected-card__title">CHASM</strong>
-    <span class="selected-card__text">Unveiling covert advertisements on Chinese social media.</span>
-  </a>
+<div class="content-panel">
+  <div class="selected-list">
+    <div class="selected-item">
+      <div class="selected-item__meta">
+        <span class="meta-pill meta-pill--venue">IEEE S&amp;P 2025</span>
+        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
+      </div>
+      <div class="selected-item__title"><a href="/publications/#peftguard">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
+      <p class="selected-item__summary">Detecting backdoor attacks against parameter-efficient fine-tuning.</p>
+    </div>
+    <div class="selected-item">
+      <div class="selected-item__meta">
+        <span class="meta-pill meta-pill--venue">ACL 2025</span>
+        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
+      </div>
+      <div class="selected-item__title"><a href="/publications/#aigt-social-media">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
+      <p class="selected-item__summary">Quantifying and monitoring AI-generated text on social media platforms.</p>
+    </div>
+    <div class="selected-item">
+      <div class="selected-item__meta">
+        <span class="meta-pill meta-pill--venue">USENIX Security 2025</span>
+        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
+      </div>
+      <div class="selected-item__title"><a href="/publications/#unsafe-llm-search">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</a></div>
+      <p class="selected-item__summary">Studying safety risks and defenses for LLM-based web search systems.</p>
+    </div>
+    <div class="selected-item">
+      <div class="selected-item__meta">
+        <span class="meta-pill meta-pill--venue">NeurIPS 2025</span>
+        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
+      </div>
+      <div class="selected-item__title"><a href="/publications/#chasm">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
+      <p class="selected-item__summary">Detecting covert advertising with multimodal signals on Chinese social media.</p>
+    </div>
+  </div>
 </div>
 
 <p class="section-note">A complete list of papers and preprints is available on the <a href="/publications/">Publications</a> page.</p>
@@ -84,53 +99,85 @@ I build and study AI systems that remain aligned, robust, and reliable in realis
 <span class="anchor" id="news"></span>
 ## News
 
-<ul class="news-list">
-  <li><span class="news-list__date">2025.12</span> <span class="news-list__emoji">🏅</span> I received the 2025 DSA Excellent Research Award.</li>
-  <li><span class="news-list__date">2026.01</span> <span class="news-list__emoji">🏆</span> <a href="/publications/#jalmbench">JALMBench</a> was accepted at ICLR 2026 and received a Best Paper Award.</li>
-  <li><span class="news-list__date">2025.12</span> <span class="news-list__emoji">🎯</span> <a href="/publications/#attack-6d">6DAttack</a> was accepted at AAAI 2026 as an Oral presentation.</li>
-  <li><span class="news-list__date">2025.09</span> <span class="news-list__emoji">📣</span> <a href="/publications/#fc-attack">FC-Attack</a> was accepted at EMNLP 2025 Findings.</li>
-  <li><span class="news-list__date">2025.09</span> <span class="news-list__emoji">🧭</span> <a href="/publications/#chasm">CHASM</a> was accepted at NeurIPS 2025.</li>
-  <li><span class="news-list__date">2025.06</span> <span class="news-list__emoji">🛡️</span> <a href="/publications/#unsafe-llm-search">Unsafe LLM-Based Search</a> was accepted at USENIX Security 2025.</li>
-  <li><span class="news-list__date">2025.05</span> <span class="news-list__emoji">📚</span> <a href="/publications/#aigt-social-media">AIGT on Social Media</a> was accepted at ACL 2025, and <a href="/publications/#mgt-generalization">MGT Generalization</a> plus <a href="/publications/#th-bench">TH-Bench</a> were accepted at KDD 2025.</li>
-  <li><span class="news-list__date">2025.03</span> <span class="news-list__emoji">🔐</span> <a href="/publications/#peftguard">PEFTGuard</a> was accepted at IEEE S&amp;P 2025.</li>
-  <li><span class="news-list__date">2024.11</span> <span class="news-list__emoji">🥇</span> <a href="/publications/#adspectorx">AdSpectorX</a> received the Best Paper Award at SENSYS-SocialMeta 2024.</li>
-  <li><span class="news-list__date">2024.06</span> <span class="news-list__emoji">🎓</span> I received my firm PhD offer from HKUST(GZ).</li>
-</ul>
+<div class="content-panel">
+  <div class="news-group">
+    <h3 class="news-group__title">Paper Updates</h3>
+    <ul class="news-clean-list">
+      <li><span class="news-clean-list__date">2026.01</span> <a href="/publications/#jalmbench">JALMBench</a> was accepted at ICLR 2026 and received a Best Paper Award.</li>
+      <li><span class="news-clean-list__date">2025.12</span> <a href="/publications/#attack-6d">6DAttack</a> was accepted at AAAI 2026 as an Oral presentation.</li>
+      <li><span class="news-clean-list__date">2025.09</span> <a href="/publications/#fc-attack">FC-Attack</a> was accepted at EMNLP 2025 Findings.</li>
+      <li><span class="news-clean-list__date">2025.09</span> <a href="/publications/#chasm">CHASM</a> was accepted at NeurIPS 2025.</li>
+      <li><span class="news-clean-list__date">2025.06</span> <a href="/publications/#unsafe-llm-search">Unsafe LLM-Based Search</a> was accepted at USENIX Security 2025.</li>
+      <li><span class="news-clean-list__date">2025.05</span> <a href="/publications/#aigt-social-media">AIGT on Social Media</a> was accepted at ACL 2025, and <a href="/publications/#mgt-generalization">MGT Generalization</a> plus <a href="/publications/#th-bench">TH-Bench</a> were accepted at KDD 2025.</li>
+      <li><span class="news-clean-list__date">2025.03</span> <a href="/publications/#peftguard">PEFTGuard</a> was accepted at IEEE S&amp;P 2025.</li>
+    </ul>
+  </div>
+  <div class="news-group">
+    <h3 class="news-group__title">Awards and Milestones</h3>
+    <ul class="news-clean-list">
+      <li><span class="news-clean-list__date">2025.12</span> I received the 2025 DSA Excellent Research Award.</li>
+      <li><span class="news-clean-list__date">2024.11</span> <a href="/publications/#adspectorx">AdSpectorX</a> received the Best Paper Award at SENSYS-SocialMeta 2024.</li>
+      <li><span class="news-clean-list__date">2024.06</span> I received my firm PhD offer from HKUST(GZ).</li>
+    </ul>
+  </div>
+</div>
 
 <span class="anchor" id="services"></span>
 ## Services
 
-### Conference PC / Reviewer
-
-- The Web Conference 2025 Workshop on Web for Good (WWW Web4Good)
-- AAAI
-- ACM MM
-- ICML
-- SaTML
-- EuroS&amp;P
-- AsiaCCS
-
-### Journal Reviewer
-
-- International Journal of Human-Computer Interaction (IJHCI)
+<div class="content-panel">
+  <div class="split-panel">
+    <div>
+      <h3>Conference PC / Reviewer</h3>
+      <ul class="compact-list">
+        <li>The Web Conference 2025 Workshop on Web for Good (WWW Web4Good)</li>
+        <li>AAAI</li>
+        <li>ACM MM</li>
+        <li>ICML</li>
+        <li>SaTML</li>
+        <li>EuroS&amp;P</li>
+        <li>AsiaCCS</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Journal Reviewer</h3>
+      <ul class="compact-list">
+        <li>International Journal of Human-Computer Interaction (IJHCI)</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <span class="anchor" id="honors"></span>
 ## Honors and Awards
 
-- **Kaggle Competitions Expert** ([Vincent Sirius](https://www.kaggle.com/rdxsun))
-- 2020.04, MCM/ICM Meritorious Winner
-- 2019 / 2020 / 2021, Third-class Scholarship of BUPT
-- 2019 / 2020 / 2021, Excellent Student Leader of BUPT
+<div class="content-panel">
+  <ul class="compact-list">
+    <li>2025, DSA Excellent Research Award</li>
+    <li><strong>Kaggle Competitions Expert</strong> (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
+    <li>2020.04, MCM/ICM Meritorious Winner</li>
+    <li>2019 / 2020 / 2021, Third-class Scholarship of BUPT</li>
+    <li>2019 / 2020 / 2021, Excellent Student Leader of BUPT</li>
+  </ul>
+</div>
 
 <span class="anchor" id="education"></span>
 ## Education
 
-- 2024.08-present, PhD in Data Science and Analytics, The Hong Kong University of Science and Technology (Guangzhou)
-- 2022.08-2023.10, MSc in Computer Science, City University of Hong Kong
-- 2018.09-2022.07, BSc in Computer Science and Technology, Beijing University of Posts and Telecommunications
+<div class="content-panel">
+  <ul class="compact-list">
+    <li>2024.08-present, PhD in Data Science and Analytics, The Hong Kong University of Science and Technology (Guangzhou)</li>
+    <li>2022.08-2023.10, MSc in Computer Science, City University of Hong Kong</li>
+    <li>2018.09-2022.07, BSc in Computer Science and Technology, Beijing University of Posts and Telecommunications</li>
+  </ul>
+</div>
 
 <span class="anchor" id="experience"></span>
 ## Experience
 
-- **Research Assistant**, 2023.06-2024.05, Centre for Artificial Intelligence and Robotics (CAIR), Hong Kong Institute of Science &amp; Innovation, Chinese Academy of Sciences (HKISI-CAS). Worked on surgical LLMs and image segmentation. Supervisor: [Dr. Jinlin Wu](https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN).
-- **Project Participant**, 2022.09-2023.08, City University of Hong Kong. Worked on financial machine translation. Supervisor: [Prof. Linqi Song](https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en).
+<div class="content-panel">
+  <ul class="compact-list">
+    <li><strong>Research Assistant</strong>, 2023.06-2024.05, Centre for Artificial Intelligence and Robotics (CAIR), Hong Kong Institute of Science &amp; Innovation, Chinese Academy of Sciences (HKISI-CAS). Worked on surgical LLMs and image segmentation. Supervisor: <a href="https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN">Dr. Jinlin Wu</a>.</li>
+    <li><strong>Project Participant</strong>, 2022.09-2023.08, City University of Hong Kong. Worked on financial machine translation. Supervisor: <a href="https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en">Prof. Linqi Song</a>.</li>
+  </ul>
+</div>
