@@ -20,11 +20,9 @@ redirect_from:
 <div class="intro-block">
   <p class="intro-block__eyebrow">Research Theme</p>
   <h1 class="intro-block__title">Trustworthy AI</h1>
-  <p class="intro-block__subtitle">AI Safety, AI Security, and AI Privacy</p>
   <ul class="intro-block__facts">
     <li>PhD Student in Data Science and Analytics at <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>.</li>
     <li>Advised by Prof. <a href="https://xinleihe.github.io/">Xinlei He</a> (Wuhan University, Overseas High-Level Young Talent Program), with primary supervision from Prof. Weijia Heng and co-supervision from Prof. Yutao Yue.</li>
-    <li>Working on trustworthy multimodal foundation models, jailbreak and backdoor attacks, AI-generated content detection, and robust evaluation.</li>
   </ul>
   <div class="inline-link-list">
     <a class="inline-link-list__item" href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">Google Scholar</a>
