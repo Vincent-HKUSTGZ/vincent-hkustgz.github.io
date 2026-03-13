@@ -43,13 +43,9 @@ redirect_from:
 
 <div class="interest-grid">
   <span class="interest-chip">Trustworthy AI</span>
-  <span class="interest-chip">AI Safety &amp; Alignment</span>
   <span class="interest-chip">AI Security &amp; Privacy</span>
-  <span class="interest-chip">Jailbreak &amp; Backdoor Attacks</span>
-  <span class="interest-chip">LLM &amp; VLM Robustness</span>
-  <span class="interest-chip">Machine-Generated Content Detection</span>
-  <span class="interest-chip">Trustworthy Multimodal Models</span>
-  <span class="interest-chip">Benchmarking &amp; Evaluation</span>
+  <span class="interest-chip">AI-Generated Content Detection</span>
+  <span class="interest-chip">AI For Security</span>
 </div>
 
 <span class="anchor" id="selected-works"></span>
@@ -174,7 +170,7 @@ redirect_from:
 <div class="content-panel">
   <ul class="compact-list">
     <li>2025, DSA Excellent Research Award</li>
-    <li><strong>Kaggle Competitions Expert</strong> (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
+    <li>Kaggle Competitions Expert (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
     <li>2020.04, MCM/ICM Meritorious Winner</li>
     <li>2019 / 2020 / 2021, Third-class Scholarship of BUPT</li>
     <li>2019 / 2020 / 2021, Excellent Student Leader of BUPT</li>
