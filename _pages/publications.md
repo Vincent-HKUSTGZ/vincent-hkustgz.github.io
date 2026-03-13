@@ -5,23 +5,16 @@ excerpt: "Full list of publications and preprints"
 author_profile: true
 ---
 
-<div class="intro-block intro-block--compact">
-  <p class="intro-block__eyebrow">Publications</p>
-  <h1 class="intro-block__title">Selected Papers and Recent Preprints</h1>
-  <p class="intro-block__subtitle">Conference papers, workshop papers, and ongoing manuscripts.</p>
-  <p class="intro-block__note"><sup>*</sup> denotes equal contribution. <sup>&dagger;</sup> denotes corresponding author.</p>
-</div>
+# Publications
 
-<div class="jump-links">
-  <a class="jump-links__item" href="#published">Published / Accepted</a>
-  <a class="jump-links__item" href="#preprints">Preprints / Not Yet Published</a>
-</div>
+<p class="pub-page__lead">A full list of conference papers, workshop papers, and recent preprints.</p>
+<p class="pub-page__note"><sup>*</sup> denotes equal contribution. <sup>&dagger;</sup> denotes corresponding author.</p>
 
 <span class="anchor" id="published"></span>
 ## Published / Accepted
 
-<div class="content-panel">
-  <p class="section-note">CCF-A papers are highlighted with a dedicated style.</p>
+<div class="pub-section">
+  <p class="pub-page__note">CCF-A papers are highlighted with a dedicated style.</p>
   <div class="pub-stack">
     <article class="pub-item pub-item--ccf-a" id="peftguard">
       <div class="pub-item__title"><a href="https://arxiv.org/abs/2411.17453">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
@@ -103,12 +96,12 @@ author_profile: true
       </div>
     </article>
 
-    <article class="pub-item pub-item--award" id="jalmbench">
-      <div class="pub-item__title"><a href="https://arxiv.org/abs/2505.17568">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
+    <article class="pub-item" id="jalmbench">
+      <div class="pub-item__title"><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
       <div class="pub-item__authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</div>
       <div class="pub-item__meta">
         <span class="meta-pill meta-pill--venue">ICLR 2026</span>
-        <span class="meta-pill meta-pill--award">Best Paper Award</span>
+        <span class="meta-pill meta-pill--status">Accepted</span>
       </div>
     </article>
 
@@ -135,7 +128,7 @@ author_profile: true
 <span class="anchor" id="preprints"></span>
 ## Preprints / Not Yet Published
 
-<div class="content-panel">
+<div class="pub-section">
   <div class="pub-stack">
     <article class="pub-item pub-item--preprint" id="llm-jailbreak-survey">
       <div class="pub-item__title"><a href="https://arxiv.org/abs/2407.04295">Jailbreak Attacks and Defenses Against Large Language Models: A Survey</a></div>

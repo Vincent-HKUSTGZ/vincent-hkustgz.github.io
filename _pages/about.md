@@ -55,7 +55,7 @@ redirect_from:
 </div>
 
 <span class="anchor" id="selected-works"></span>
-## Selected Works
+## Selected Papers
 
 <div class="content-panel">
   <div class="selected-list">
@@ -64,7 +64,7 @@ redirect_from:
         <span class="meta-pill meta-pill--venue">IEEE S&amp;P 2025</span>
         <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
       </div>
-      <div class="selected-item__title"><a href="/publications/#peftguard">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
+      <div class="selected-item__title"><a href="https://arxiv.org/abs/2411.17453">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
       <p class="selected-item__summary">Detecting backdoor attacks against parameter-efficient fine-tuning.</p>
     </div>
     <div class="selected-item">
@@ -72,24 +72,16 @@ redirect_from:
         <span class="meta-pill meta-pill--venue">ACL 2025</span>
         <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
       </div>
-      <div class="selected-item__title"><a href="/publications/#aigt-social-media">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
+      <div class="selected-item__title"><a href="https://aclanthology.org/2025.acl-long.1120/">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
       <p class="selected-item__summary">Quantifying and monitoring AI-generated text on social media platforms.</p>
     </div>
     <div class="selected-item">
       <div class="selected-item__meta">
-        <span class="meta-pill meta-pill--venue">USENIX Security 2025</span>
-        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
+        <span class="meta-pill meta-pill--venue">arXiv 2024</span>
+        <span class="meta-pill meta-pill--accent">Survey</span>
       </div>
-      <div class="selected-item__title"><a href="/publications/#unsafe-llm-search">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</a></div>
-      <p class="selected-item__summary">Studying safety risks and defenses for LLM-based web search systems.</p>
-    </div>
-    <div class="selected-item">
-      <div class="selected-item__meta">
-        <span class="meta-pill meta-pill--venue">NeurIPS 2025</span>
-        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
-      </div>
-      <div class="selected-item__title"><a href="/publications/#chasm">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
-      <p class="selected-item__summary">Detecting covert advertising with multimodal signals on Chinese social media.</p>
+      <div class="selected-item__title"><a href="https://arxiv.org/abs/2407.04295">Jailbreak Attacks and Defenses Against Large Language Models: A Survey</a></div>
+      <p class="selected-item__summary">A comprehensive survey of jailbreak attacks and defenses for large language models.</p>
     </div>
   </div>
 </div>
@@ -103,21 +95,21 @@ redirect_from:
   <div class="news-group">
     <h3 class="news-group__title">Paper Updates</h3>
     <ul class="news-clean-list">
-      <li><span class="news-clean-list__date">2026.01</span> <a href="/publications/#jalmbench">JALMBench</a> was accepted at ICLR 2026 and received a Best Paper Award.</li>
-      <li><span class="news-clean-list__date">2025.12</span> <a href="/publications/#attack-6d">6DAttack</a> was accepted at AAAI 2026 as an Oral presentation.</li>
-      <li><span class="news-clean-list__date">2025.09</span> <a href="/publications/#fc-attack">FC-Attack</a> was accepted at EMNLP 2025 Findings.</li>
-      <li><span class="news-clean-list__date">2025.09</span> <a href="/publications/#chasm">CHASM</a> was accepted at NeurIPS 2025.</li>
-      <li><span class="news-clean-list__date">2025.06</span> <a href="/publications/#unsafe-llm-search">Unsafe LLM-Based Search</a> was accepted at USENIX Security 2025.</li>
-      <li><span class="news-clean-list__date">2025.05</span> <a href="/publications/#aigt-social-media">AIGT on Social Media</a> was accepted at ACL 2025, and <a href="/publications/#mgt-generalization">MGT Generalization</a> plus <a href="/publications/#th-bench">TH-Bench</a> were accepted at KDD 2025.</li>
-      <li><span class="news-clean-list__date">2025.03</span> <a href="/publications/#peftguard">PEFTGuard</a> was accepted at IEEE S&amp;P 2025.</li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2026.01</span><span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at ICLR 2026.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.12</span><span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at AAAI 2026 as an Oral presentation.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.09</span><span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at EMNLP 2025 Findings.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.09</span><span><a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at NeurIPS 2025.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.06</span><span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at USENIX Security 2025.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.05</span><span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at ACL 2025, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at KDD 2025.</span></li>
+      <li><span class="news-clean-list__icon">🎉</span><span class="news-clean-list__date">2025.03</span><span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at IEEE S&amp;P 2025.</span></li>
     </ul>
   </div>
   <div class="news-group">
     <h3 class="news-group__title">Awards and Milestones</h3>
     <ul class="news-clean-list">
-      <li><span class="news-clean-list__date">2025.12</span> I received the 2025 DSA Excellent Research Award.</li>
-      <li><span class="news-clean-list__date">2024.11</span> <a href="/publications/#adspectorx">AdSpectorX</a> received the Best Paper Award at SENSYS-SocialMeta 2024.</li>
-      <li><span class="news-clean-list__date">2024.06</span> I received my firm PhD offer from HKUST(GZ).</li>
+      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2025.12</span><span>I received the 2025 DSA Excellent Research Award.</span></li>
+      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2024.11</span><span>AdSpectorX received the Best Paper Award at SENSYS-SocialMeta 2024.</span></li>
+      <li><span class="news-clean-list__icon">🏆</span><span class="news-clean-list__date">2024.06</span><span>I received my firm PhD offer from HKUST(GZ).</span></li>
     </ul>
   </div>
 </div>
@@ -134,6 +126,7 @@ redirect_from:
         <li>AAAI</li>
         <li>ACM MM</li>
         <li>ICML</li>
+        <li>CVPR</li>
         <li>SaTML</li>
         <li>EuroS&amp;P</li>
         <li>AsiaCCS</li>
@@ -142,6 +135,9 @@ redirect_from:
     <div>
       <h3>Journal Reviewer</h3>
       <ul class="compact-list">
+        <li>IEEE Transactions on Dependable and Secure Computing (TDSC)</li>
+        <li>IEEE Transactions on Information Forensics and Security (TIFS)</li>
+        <li>ACM Transactions on Privacy and Security (TOPS)</li>
         <li>International Journal of Human-Computer Interaction (IJHCI)</li>
       </ul>
     </div>
