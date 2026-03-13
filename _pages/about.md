@@ -27,9 +27,9 @@ redirect_from:
     <li>Working on trustworthy multimodal foundation models, jailbreak and backdoor attacks, AI-generated content detection, and robust evaluation.</li>
   </ul>
   <div class="inline-link-list">
-    <a class="inline-link-list__item" href="/publications/">Publications</a>
     <a class="inline-link-list__item" href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">Google Scholar</a>
     <a class="inline-link-list__item" href="mailto:zsun344@connect.hkust-gz.edu.cn">Email</a>
+    <a class="inline-link-list__item" href="https://github.com/Vincent-HKUSTGZ">GitHub</a>
   </div>
   <div class="intro-block__scholar">
     <a href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">
@@ -41,52 +41,66 @@ redirect_from:
 <span class="anchor" id="research"></span>
 ## Research Interests
 
-<div class="content-panel">
-  <ul class="interest-list">
-    <li>Trustworthy AI</li>
-    <li>AI Safety and Alignment</li>
-    <li>AI Security and Privacy</li>
-    <li>Jailbreak and Backdoor Attacks</li>
-    <li>Robustness of Large Language Models and Vision-Language Models</li>
-    <li>Machine-Generated Content Detection</li>
-    <li>Trustworthy Multimodal Foundation Models</li>
-    <li>Benchmarking and Robust Evaluation</li>
-  </ul>
+<div class="interest-grid">
+  <span class="interest-chip">Trustworthy AI</span>
+  <span class="interest-chip">AI Safety &amp; Alignment</span>
+  <span class="interest-chip">AI Security &amp; Privacy</span>
+  <span class="interest-chip">Jailbreak &amp; Backdoor Attacks</span>
+  <span class="interest-chip">LLM &amp; VLM Robustness</span>
+  <span class="interest-chip">Machine-Generated Content Detection</span>
+  <span class="interest-chip">Trustworthy Multimodal Models</span>
+  <span class="interest-chip">Benchmarking &amp; Evaluation</span>
 </div>
 
 <span class="anchor" id="selected-works"></span>
-## Selected Papers
+## Selected Papers <span class="section-badge">CCF-A</span>
 
-<div class="content-panel">
-  <div class="selected-list">
-    <div class="selected-item">
-      <div class="selected-item__meta">
-        <span class="meta-pill meta-pill--venue">IEEE S&amp;P 2025</span>
-        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
-      </div>
-      <div class="selected-item__title"><a href="https://arxiv.org/abs/2411.17453">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
-      <p class="selected-item__summary">Detecting backdoor attacks against parameter-efficient fine-tuning.</p>
-    </div>
-    <div class="selected-item">
-      <div class="selected-item__meta">
-        <span class="meta-pill meta-pill--venue">ACL 2025</span>
-        <span class="meta-pill meta-pill--ccf-a">CCF-A</span>
-      </div>
-      <div class="selected-item__title"><a href="https://aclanthology.org/2025.acl-long.1120/">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
-      <p class="selected-item__summary">Quantifying and monitoring AI-generated text on social media platforms.</p>
-    </div>
-    <div class="selected-item">
-      <div class="selected-item__meta">
-        <span class="meta-pill meta-pill--venue">arXiv 2024</span>
-        <span class="meta-pill meta-pill--accent">Survey</span>
-      </div>
-      <div class="selected-item__title"><a href="https://arxiv.org/abs/2407.04295">Jailbreak Attacks and Defenses Against Large Language Models: A Survey</a></div>
-      <p class="selected-item__summary">A comprehensive survey of jailbreak attacks and defenses for large language models.</p>
-    </div>
-  </div>
+<p class="section-sub"><sup>*</sup> denotes equal contribution. <sup>&dagger;</sup> denotes corresponding author.</p>
+
+<div class="card-grid">
+  <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2411.17453">
+    <span class="paper-card__venue">IEEE S&amp;P 2025</span>
+    <strong class="paper-card__title">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</strong>
+    <span class="paper-card__authors"><strong>Zhen Sun</strong>, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, Xinyi Huang.</span>
+  </a>
+  <a class="paper-card paper-card--ccf-a" href="https://aclanthology.org/2025.acl-long.1120/">
+    <span class="paper-card__venue">ACL 2025</span>
+    <strong class="paper-card__title">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</strong>
+    <span class="paper-card__authors"><strong>Zhen Sun</strong>, Zongmin Zhang, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</span>
+  </a>
+  <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2503.08708">
+    <span class="paper-card__venue">KDD 2025</span>
+    <strong class="paper-card__title">TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors</strong>
+    <span class="paper-card__authors">Jingyi Zheng, Junfeng Wang, <strong>Zhen Sun</strong>, Wenhan Dong, Yule Liu, Xinlei He.</span>
+  </a>
+  <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2512.19058">
+    <span class="paper-card__venue">AAAI 2026 <span class="paper-card__tag">Oral</span></span>
+    <strong class="paper-card__title">6DAttack: Backdoor Attacks in the 6DoF Pose Estimation</strong>
+    <span class="paper-card__authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</span>
+  </a>
+  <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2412.17242">
+    <span class="paper-card__venue">KDD 2025</span>
+    <strong class="paper-card__title">On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing</strong>
+    <span class="paper-card__authors">Yule Liu, Zhiyuan Zhong, Yifan Liao, <strong>Zhen Sun</strong>, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He.</span>
+  </a>
+  <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2502.04951">
+    <span class="paper-card__venue">USENIX Security 2025</span>
+    <strong class="paper-card__title">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</strong>
+    <span class="paper-card__authors">Zeren Luo, Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Jingyi Zheng, Xinlei He.</span>
+  </a>
+  <a class="paper-card paper-card--ccf-a" href="https://arxiv.org/abs/2509.18874">
+    <span class="paper-card__venue">NeurIPS 2025</span>
+    <strong class="paper-card__title">CHASM: Unveiling Covert Advertisements on Chinese Social Media</strong>
+    <span class="paper-card__authors">Jingyi Zheng, Tianyi Hu, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Zifan Peng, Wenhan Dong, Xinlei He.</span>
+  </a>
 </div>
 
-<p class="section-note">A complete list of papers and preprints is available on the <a href="/publications/">Publications</a> page.</p>
+<span class="anchor" id="other-papers"></span>
+## Other Accepted Papers
+
+- <span class="meta-pill meta-pill--ccf-b">CCF-B</span> **[EMNLP 2025 Findings]** [FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts](https://arxiv.org/abs/2502.21059). Ziyi Zhang<sup>*</sup>, **Zhen Sun**<sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.
+- <span class="meta-pill meta-pill--venue">ICLR 2026</span> [JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models](https://openreview.net/forum?id=DJkQ236C8B). Zifan Peng, Yule Liu, **Zhen Sun**, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.
+- <span class="meta-pill meta-pill--award">Best Paper Award</span> **[SENSYS-SocialMeta 2024]** AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media. Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, **Zhen Sun**<sup>&dagger;</sup>.
 
 <span class="anchor" id="news"></span>
 ## News
