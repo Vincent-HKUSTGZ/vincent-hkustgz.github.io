@@ -78,7 +78,7 @@ redirect_from:
     <span class="paper-card__authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</span>
   </a>
   <a class="paper-card" href="https://openreview.net/forum?id=DJkQ236C8B">
-    <span class="paper-card__venue">ICLR 2026</span>
+    <span class="paper-card__venue">ICLR 2026<span class="paper-card__tag">CCF-A</span></span>
     <strong class="paper-card__title">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</strong>
     <span class="paper-card__authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</span>
   </a>
