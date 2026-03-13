@@ -43,7 +43,7 @@ redirect_from:
   <span class="interest-chip">Trustworthy AI</span>
   <span class="interest-chip">AI Security &amp; Privacy</span>
   <span class="interest-chip">AI-Generated Content Detection</span>
-  <span class="interest-chip">AI For Security</span>
+  <span class="interest-chip">AI For Safety</span>
 </div>
 
 <span class="anchor" id="selected-works"></span>
