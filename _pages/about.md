@@ -138,7 +138,7 @@ redirect_from:
     <div>
       <h3>Conference PC / Reviewer</h3>
       <ul class="compact-list">
-        <li>The Web Conference 2025 Workshop on Web for Good (WWW Web4Good)</li>
+        <li>The Web Conference 2025 Web4Good Track</li>
         <li>AAAI</li>
         <li>ACM MM</li>
         <li>ICML</li>
