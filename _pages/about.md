@@ -20,7 +20,8 @@ redirect_from:
     <img src="{{ '/images/me.png' | relative_url }}" alt="Zhen Sun">
   </div>
   <div class="profile-header__info">
-    <h1>Zhen (Vincent) Sun</h1>
+    <h1>Zhen Sun</h1>
+    <p class="profile-header__aka">Vincent</p>
     <p class="profile-header__role">PhD Student in Data Science and Analytics</p>
     <p class="profile-header__aff"><a href="https://www.hkust-gz.edu.cn/" class="text-plain">The Hong Kong University of Science and Technology (Guangzhou)</a></p>
     <p class="profile-header__links">
@@ -256,7 +257,7 @@ redirect_from:
   <div class="timeline">
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group">
+        <img src="{{ '/images/logos/ant.png' | relative_url }}" alt="Ant Group">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Research Intern</div>
