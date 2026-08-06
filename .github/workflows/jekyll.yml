@@ -7,8 +7,11 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # GitHub Pages is configured to build from the main branch. Keep this
-  # workflow as a manual fallback so a push does not start two deployments.
+  # Publish automatically now that Pages uses GitHub Actions as its source.
+  push:
+    branches: ["main"]
+
+  # Allows a manual retry from the Actions tab when needed.
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
