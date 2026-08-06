@@ -4,11 +4,7 @@
     <button class="site-navbar__toggle" type="button" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('is-open')">&#9776;</button>
     <div class="site-navbar__links">
       {% for link in site.data.navigation.main %}
-        {% if link.url == "/" %}
-          <a href="{{ '/' | relative_url }}">{{ link.title }}</a>
-        {% else %}
-          <a href="{{ link.url }}">{{ link.title }}</a>
-        {% endif %}
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a>
       {% endfor %}
     </div>
   </div>

@@ -4,16 +4,19 @@ main:
     url: "/"
 
   - title: "Research"
-    url: "#research"
+    url: "/#research"
 
   - title: "News"
-    url: "#news"
+    url: "/#news"
 
   - title: "Papers"
-    url: "#publications"
+    url: "/#publications"
+
+  - title: "Data"
+    url: "/data/"
 
   - title: "Awards"
-    url: "#honors"
+    url: "/#honors"
 
   - title: "Experience"
-    url: "#experience"
+    url: "/#experience"

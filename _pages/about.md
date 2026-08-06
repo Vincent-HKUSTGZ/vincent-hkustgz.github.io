@@ -22,14 +22,14 @@ redirect_from:
   <div class="profile-header__info">
     <h1>Zhen Sun</h1>
     <p class="profile-header__aka">Vincent</p>
-    <p class="profile-header__role">PhD Student in Data Science and Analytics</p>
+    <p class="profile-header__role">PhD Candidate in Data Science and Analytics</p>
     <p class="profile-header__aff"><a href="https://www.hkust-gz.edu.cn/" class="text-plain">The Hong Kong University of Science and Technology (Guangzhou)</a></p>
     <p class="profile-header__links">
-      <a href="mailto:zsun344@connect.hkust-gz.edu.cn">Email</a>
+      <a href="mailto:zsun344@connect.hkust-gz.edu.cn"><i class="fas fa-envelope profile-link-icon" aria-hidden="true"></i>Email</a>
       &nbsp;/&nbsp;
-      <a href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">Scholar</a>
+      <a href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en"><i class="ai ai-google-scholar profile-link-icon" aria-hidden="true"></i>Scholar</a>
       &nbsp;/&nbsp;
-      <a href="https://github.com/Vincent-HKUSTGZ">GitHub</a>
+      <a href="https://github.com/Vincent-HKUSTGZ"><i class="fab fa-github profile-link-icon" aria-hidden="true"></i>GitHub</a>
     </p>
     <p class="profile-header__badge">
       <a href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">
@@ -42,7 +42,7 @@ redirect_from:
 <span class="anchor" id="research"></span>
 <section class="page-section">
   <p>
-    Hello! I'm a PhD student in Data Science and Analytics at
+    Hello! I'm a PhD candidate in Data Science and Analytics at
     <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>.
     I am advised by Prof. <a href="https://xinleihe.github.io/">Xinlei He</a>,
     with primary supervision from Prof. <a href="https://sites.google.com/ucsc.edu/jiahengwei">Jiaheng Wei</a>
@@ -54,17 +54,17 @@ redirect_from:
 
   <div class="research-pillars">
     <div class="pillar pillar--security">
-      <div class="pillar-icon" aria-hidden="true"><i class="fas fa-shield-alt"></i></div>
+      <div class="pillar-icon" aria-hidden="true">🔐</div>
       <div class="pillar-title">Security &amp; Privacy</div>
       <div class="pillar-sub">Studying backdoors, jailbreaks, and privacy risks in modern AI models.</div>
     </div>
     <div class="pillar pillar--aigt">
-      <div class="pillar-icon" aria-hidden="true"><i class="fas fa-search"></i></div>
+      <div class="pillar-icon" aria-hidden="true">🔎</div>
       <div class="pillar-title">AI-Generated Content Detection</div>
       <div class="pillar-sub">Detecting and monitoring machine-generated text and multimodal content in the wild.</div>
     </div>
     <div class="pillar pillar--safety">
-      <div class="pillar-icon" aria-hidden="true"><i class="fas fa-user-shield"></i></div>
+      <div class="pillar-icon" aria-hidden="true">🛡️</div>
       <div class="pillar-title">AI For Safety</div>
       <div class="pillar-sub">Mitigating AI-driven harms and improving the safety of deployed systems.</div>
     </div>
@@ -75,19 +75,21 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
-    <li><span class="news-date">[2026.01]</span> <span class="news-icon news-icon--paper" aria-hidden="true"><i class="fas fa-file-alt"></i></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon news-icon--oral" aria-hidden="true"><i class="fas fa-microphone-alt"></i></span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon news-icon--award" aria-hidden="true"><i class="fas fa-award"></i></span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
-    <li><span class="news-date">[2025.09]</span> <a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
-    <li><span class="news-date">[2025.09]</span> <a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
-    <li><span class="news-date">[2025.06]</span> <a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
-    <li><span class="news-date">[2025.05]</span> <a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at <strong>ACL 2025</strong>, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at <strong>KDD 2025</strong>.</li>
-    <li><span class="news-date">[2025.03]</span> <a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at <strong>IEEE S&amp;P 2025</strong>.</li>
+    <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true">✅</span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
+    <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true">🔊</span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true">🏆</span>I received <strong>First Prize</strong> in the <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition of the 2025 China Intelligent Vehicle Future Challenge</a>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true">🎙️</span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true">🏅</span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
+    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true">📊</span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
+    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true">🔍</span><a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
+    <li><span class="news-date">[2025.06]</span> <span class="news-icon" aria-hidden="true">🛡️</span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
+    <li><span class="news-date">[2025.05]</span> <span class="news-icon" aria-hidden="true">✨</span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at <strong>ACL 2025</strong>, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at <strong>KDD 2025</strong>.</li>
+    <li><span class="news-date">[2025.03]</span> <span class="news-icon" aria-hidden="true">🔐</span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at <strong>IEEE S&amp;P 2025</strong>.</li>
   </ul>
   <div id="hidden-news" class="is-hidden">
     <ul class="list-compact">
-      <li><span class="news-date">[2024.11]</span> AdSpectorX received the <strong>Best Paper Award</strong> at SENSYS-SocialMeta 2024.</li>
-      <li><span class="news-date">[2024.06]</span> I received my firm PhD offer from HKUST(GZ).</li>
+      <li><span class="news-date">[2024.11]</span> <span class="news-icon" aria-hidden="true">🏆</span>AdSpectorX received the <strong>Best Paper Award</strong> at SENSYS-SocialMeta 2024.</li>
+      <li><span class="news-date">[2024.06]</span> <span class="news-icon" aria-hidden="true">🎓</span>I received my firm PhD offer from HKUST(GZ).</li>
     </ul>
   </div>
   <p><span class="news-toggle" onclick="toggleNews()">Show more news</span></p>
@@ -100,7 +102,7 @@ redirect_from:
 
   <div class="pub-list">
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">IEEE S&amp;P</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">IEEE S&amp;P</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2411.17453">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
         <div class="pub-authors"><strong>Zhen Sun</strong>, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, Xinyi Huang.</div>
@@ -108,7 +110,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">ACL</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">ACL</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://aclanthology.org/2025.acl-long.1120/">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
         <div class="pub-authors"><strong>Zhen Sun<sup>*</sup></strong>, Zongmin Zhang<sup>*</sup>, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</div>
@@ -116,7 +118,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span><span class="pub-tag">CCF-B</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2502.21059">FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts</a></div>
         <div class="pub-authors">Ziyi Zhang<sup>*</sup>, <strong>Zhen Sun</strong><sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.</div>
@@ -124,7 +126,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
         <div class="pub-authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</div>
@@ -132,7 +134,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</a></div>
         <div class="pub-authors">Zeren Luo, Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Jingyi Zheng, Xinlei He.</div>
@@ -140,7 +142,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2509.18874">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
         <div class="pub-authors">Jingyi Zheng, Tianyi Hu, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Zifan Peng, Wenhan Dong, Xinlei He.</div>
@@ -148,7 +150,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">AAAI</span><span class="pub-tag">CCF-A · Oral</span></div>
+      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">AAAI · Oral</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2512.19058">6DAttack: Backdoor Attacks in the 6DoF Pose Estimation</a></div>
         <div class="pub-authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</div>
@@ -156,7 +158,7 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2503.08708">TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors</a></div>
         <div class="pub-authors">Jingyi Zheng, Junfeng Wang, <strong>Zhen Sun</strong>, Wenhan Dong, Yule Liu, Xinlei He.</div>
@@ -164,29 +166,28 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2412.17242">On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing</a></div>
         <div class="pub-authors">Yule Liu, Zhiyuan Zhong, Yifan Liao, <strong>Zhen Sun</strong>, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He.</div>
       </div>
     </div>
 
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2024</span><span class="pub-venue">SENSYS-SocialMeta</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://doi.org/10.1145/3698387.3700001">AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media</a></div>
-        <div class="pub-authors">Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, <strong>Zhen Sun</strong><sup>&dagger;</sup>.</div>
-      </div>
-    </div>
   </div>
 </section>
 
 <span class="anchor" id="services"></span>
 <section class="page-section">
   <h2>Services</h2>
-  <ul class="list-compact">
-    <li><strong>Conference PC / Reviewer</strong>: The Web Conference 2025 Web4Good Track, AAAI, ACM MM, ICML, CVPR, ACL, EMNLP, SaTML, EuroS&amp;P, AsiaCCS</li>
-    <li><strong>Journal Reviewer</strong>: IEEE TDSC, IEEE TIFS, ACM TOPS, IJHCI</li>
+  <ul class="service-list">
+    <li>
+      <strong>Program Committee</strong>
+      <ul>
+        <li><span class="service-year">2026</span> ACL ARR, AAAI, ACM MM</li>
+        <li><span class="service-year">2025</span> AAAI, ACM MM, WWW (Web for Good)</li>
+      </ul>
+    </li>
+    <li><strong>Journal Reviewers</strong>: IEEE TDSC, IEEE TIFS, ACM TOPS, IJHCI</li>
   </ul>
 </section>
 
@@ -194,6 +195,7 @@ redirect_from:
 <section class="page-section">
   <h2>Selected Awards &amp; Honors</h2>
   <ul class="list-compact">
+    <li><strong>First Prize</strong>, <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition, 2025 China Intelligent Vehicle Future Challenge</a>, 2025</li>
     <li><strong>DSA Excellent Research Award</strong>, 2025</li>
     <li><strong>Best Paper Award</strong>, SENSYS-SocialMeta 2024</li>
     <li>Kaggle Competitions Expert (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
@@ -243,8 +245,8 @@ redirect_from:
   <h2>Experience</h2>
   <div class="timeline">
     <div class="timeline-item">
-      <div class="timeline-item__logo timeline-item__logo--ant">
-        <img class="timeline-logo--ant" src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group">
+      <div class="timeline-item__logo">
+        <img src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Research Intern</div>
