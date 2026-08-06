@@ -17,7 +17,7 @@ redirect_from:
 
 <div class="profile-header">
   <div class="profile-header__image">
-    <img src="{{ '/images/me.png' | relative_url }}" alt="Zhen Sun">
+    <img src="{{ '/images/me.png' | relative_url }}" alt="Zhen Sun" fetchpriority="high" decoding="async">
   </div>
   <div class="profile-header__info">
     <h1>Zhen Sun</h1>
@@ -54,17 +54,17 @@ redirect_from:
 
   <div class="research-pillars">
     <div class="pillar pillar--security">
-      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt=""></div>
+      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt="" decoding="async"></div>
       <div class="pillar-title">Security &amp; Privacy</div>
       <div class="pillar-sub">Studying backdoors, jailbreaks, and privacy risks in modern AI models.</div>
     </div>
     <div class="pillar pillar--aigt">
-      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt=""></div>
+      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt="" decoding="async"></div>
       <div class="pillar-title">AI-Generated Content Detection</div>
       <div class="pillar-sub">Detecting and monitoring machine-generated text and multimodal content in the wild.</div>
     </div>
     <div class="pillar pillar--safety">
-      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt=""></div>
+      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt="" decoding="async"></div>
       <div class="pillar-title">AI For Safety</div>
       <div class="pillar-sub">Mitigating AI-driven harms and improving the safety of deployed systems.</div>
     </div>
@@ -75,21 +75,21 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
-    <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt=""></span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
-    <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt=""></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt=""></span>I received <strong>First Prize</strong> in the <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition of the 2025 China Intelligent Vehicle Future Challenge</a>.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt=""></span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
-    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
-    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt=""></span><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/abc663d2e6b189615a210cb931f935ea-Abstract-Datasets_and_Benchmarks_Track.html">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
-    <li><span class="news-date">[2025.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
-    <li><span class="news-date">[2025.05]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-celebrate.png' | relative_url }}" alt=""></span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at <strong>ACL 2025</strong>, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at <strong>KDD 2025</strong>.</li>
-    <li><span class="news-date">[2025.03]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at <strong>IEEE S&amp;P 2025</strong>.</li>
+    <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
+    <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I received <strong>First Prize</strong> in the <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition of the 2025 China Intelligent Vehicle Future Challenge</a>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
+    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
+    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/abc663d2e6b189615a210cb931f935ea-Abstract-Datasets_and_Benchmarks_Track.html">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
+    <li><span class="news-date">[2025.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
+    <li><span class="news-date">[2025.05]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-celebrate.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at <strong>ACL 2025</strong>, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at <strong>KDD 2025</strong>.</li>
+    <li><span class="news-date">[2025.03]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at <strong>IEEE S&amp;P 2025</strong>.</li>
   </ul>
   <div id="hidden-news" class="is-hidden">
     <ul class="list-compact">
-      <li><span class="news-date">[2024.11]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt=""></span>AdSpectorX received the <strong>Best Paper Award</strong> at SENSYS-SocialMeta 2024.</li>
-      <li><span class="news-date">[2024.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt=""></span>I received my firm PhD offer from HKUST(GZ).</li>
+      <li><span class="news-date">[2024.11]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>AdSpectorX received the <strong>Best Paper Award</strong> at SENSYS-SocialMeta 2024.</li>
+      <li><span class="news-date">[2024.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I received my firm PhD offer from HKUST(GZ).</li>
     </ul>
   </div>
   <p><span class="news-toggle" onclick="toggleNews()">Show more news</span></p>
@@ -103,7 +103,7 @@ redirect_from:
   <div class="pub-list" id="paper-list">
     <div class="pub-entry">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://sp2025.ieee-security.org/" aria-label="IEEE Symposium on Security and Privacy 2025 website"><img src="{{ '/images/conferences/ieee-sp-2025.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://sp2025.ieee-security.org/" aria-label="IEEE Symposium on Security and Privacy 2025 website"><img src="{{ '/images/conferences/ieee-sp-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">IEEE S&amp;P</span></div>
       </div>
       <div class="pub-content">
@@ -114,7 +114,7 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://2025.aclweb.org/" aria-label="ACL 2025 website"><img src="{{ '/images/conferences/acl-2025.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://2025.aclweb.org/" aria-label="ACL 2025 website"><img src="{{ '/images/conferences/acl-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">ACL</span></div>
       </div>
       <div class="pub-content">
@@ -125,7 +125,7 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://2025.emnlp.org/" aria-label="EMNLP 2025 website"><img src="{{ '/images/conferences/emnlp-2025.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://2025.emnlp.org/" aria-label="EMNLP 2025 website"><img src="{{ '/images/conferences/emnlp-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span></div>
       </div>
       <div class="pub-content">
@@ -136,7 +136,7 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://iclr.cc/Conferences/2026" aria-label="ICLR 2026 website"><img src="{{ '/images/conferences/iclr-2026.svg' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://iclr.cc/Conferences/2026" aria-label="ICLR 2026 website"><img src="{{ '/images/conferences/iclr-2026.svg' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span></div>
       </div>
       <div class="pub-content">
@@ -147,7 +147,7 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-meta">
-        <a class="pub-venue-logo pub-venue-logo--dark" href="https://www.usenix.org/conference/usenixsecurity25" aria-label="USENIX Security 2025 website"><img src="{{ '/images/conferences/usenix-security-2025.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo pub-venue-logo--dark" href="https://www.usenix.org/conference/usenixsecurity25" aria-label="USENIX Security 2025 website"><img src="{{ '/images/conferences/usenix-security-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span></div>
       </div>
       <div class="pub-content">
@@ -158,7 +158,7 @@ redirect_from:
 
     <div class="pub-entry pub-entry--extra is-hidden">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://neurips.cc/Conferences/2025" aria-label="NeurIPS 2025 website"><img src="{{ '/images/conferences/neurips-2025.svg' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://neurips.cc/Conferences/2025" aria-label="NeurIPS 2025 website"><img src="{{ '/images/conferences/neurips-2025.svg' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span></div>
       </div>
       <div class="pub-content">
@@ -169,7 +169,7 @@ redirect_from:
 
     <div class="pub-entry pub-entry--extra is-hidden">
       <div class="pub-meta">
-        <a class="pub-venue-logo pub-venue-logo--dark" href="https://aaai.org/conference/aaai/aaai-26/" aria-label="AAAI 2026 website"><img src="{{ '/images/conferences/aaai-2026.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo pub-venue-logo--dark" href="https://aaai.org/conference/aaai/aaai-26/" aria-label="AAAI 2026 website"><img src="{{ '/images/conferences/aaai-2026.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">AAAI · Oral</span></div>
       </div>
       <div class="pub-content">
@@ -180,7 +180,7 @@ redirect_from:
 
     <div class="pub-entry pub-entry--extra is-hidden">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://kdd2025.kdd.org/" aria-label="KDD 2025 website"><img src="{{ '/images/conferences/kdd-2025.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://kdd2025.kdd.org/" aria-label="KDD 2025 website"><img src="{{ '/images/conferences/kdd-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
       </div>
       <div class="pub-content">
@@ -191,7 +191,7 @@ redirect_from:
 
     <div class="pub-entry pub-entry--extra is-hidden">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://kdd2025.kdd.org/" aria-label="KDD 2025 website"><img src="{{ '/images/conferences/kdd-2025.png' | relative_url }}" alt=""></a>
+        <a class="pub-venue-logo" href="https://kdd2025.kdd.org/" aria-label="KDD 2025 website"><img src="{{ '/images/conferences/kdd-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
       </div>
       <div class="pub-content">
@@ -237,7 +237,7 @@ redirect_from:
   <div class="timeline">
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/hkustgz.png' | relative_url }}" alt="HKUST(GZ)">
+        <img src="{{ '/images/logos/hkustgz.png' | relative_url }}" alt="HKUST(GZ)" loading="lazy" decoding="async">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">PhD in Data Science and Analytics</div>
@@ -247,7 +247,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="City University of Hong Kong">
+        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="City University of Hong Kong" loading="lazy" decoding="async">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">MSc in Computer Science</div>
@@ -257,7 +257,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/bupt.png' | relative_url }}" alt="BUPT">
+        <img src="{{ '/images/logos/bupt.png' | relative_url }}" alt="BUPT" loading="lazy" decoding="async">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">BSc in Computer Science and Technology</div>
@@ -274,7 +274,7 @@ redirect_from:
   <div class="timeline">
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group">
+        <img src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group" loading="lazy" decoding="async">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Research Intern</div>
@@ -285,7 +285,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cas.png' | relative_url }}" alt="CAS">
+        <img src="{{ '/images/logos/cas.png' | relative_url }}" alt="CAS" loading="lazy" decoding="async">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Research Assistant</div>
@@ -296,7 +296,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="City University of Hong Kong">
+        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="City University of Hong Kong" loading="lazy" decoding="async">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Project Participant</div>
