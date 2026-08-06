@@ -20,7 +20,7 @@ redirect_from:
     <img src="{{ '/images/me.png' | relative_url }}" alt="Zhen Sun">
   </div>
   <div class="profile-header__info">
-    <h1>Zhen Sun</h1>
+    <h1>Zhen (Vincent) Sun</h1>
     <p class="profile-header__role">PhD Student in Data Science and Analytics</p>
     <p class="profile-header__aff"><a href="https://www.hkust-gz.edu.cn/" class="text-plain">The Hong Kong University of Science and Technology (Guangzhou)</a></p>
     <p class="profile-header__links">
@@ -216,20 +216,78 @@ redirect_from:
 <span class="anchor" id="education"></span>
 <section class="page-section">
   <h2>Education</h2>
-  <ul class="list-compact">
-    <li><strong>2024.08–present</strong>, PhD in Data Science and Analytics, The Hong Kong University of Science and Technology (Guangzhou)</li>
-    <li><strong>2022.08–2023.10</strong>, MSc in Computer Science, City University of Hong Kong</li>
-    <li><strong>2018.09–2022.07</strong>, BSc in Computer Science and Technology, Beijing University of Posts and Telecommunications</li>
-  </ul>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-item__logo">
+        <img src="{{ '/images/logos/hkustgz.png' | relative_url }}" alt="HKUST(GZ)">
+      </div>
+      <div class="timeline-item__body">
+        <div class="timeline-item__title">PhD in Data Science and Analytics</div>
+        <div class="timeline-item__org"><a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a></div>
+        <div class="timeline-item__date">2024.08 – present</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-item__logo">
+        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="CityU">
+      </div>
+      <div class="timeline-item__body">
+        <div class="timeline-item__title">MSc in Computer Science</div>
+        <div class="timeline-item__org"><a href="https://www.cityu.edu.hk/">City University of Hong Kong</a></div>
+        <div class="timeline-item__date">2022.08 – 2023.10</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-item__logo timeline-item__logo--contain">
+        <img src="{{ '/images/logos/bupt.png' | relative_url }}" alt="BUPT">
+      </div>
+      <div class="timeline-item__body">
+        <div class="timeline-item__title">BSc in Computer Science and Technology</div>
+        <div class="timeline-item__org"><a href="https://www.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a></div>
+        <div class="timeline-item__date">2018.09 – 2022.07</div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <span class="anchor" id="experience"></span>
 <section class="page-section">
   <h2>Experience</h2>
-  <ul class="list-compact">
-    <li><strong>Research Assistant</strong>, 2023.06–2024.05, Centre for Artificial Intelligence and Robotics (CAIR), Hong Kong Institute of Science &amp; Innovation, Chinese Academy of Sciences (HKISI-CAS). Worked on surgical LLMs and image segmentation. Supervisor: <a href="https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN">Dr. Jinlin Wu</a>.</li>
-    <li><strong>Project Participant</strong>, 2022.09–2023.08, City University of Hong Kong. Worked on financial machine translation. Supervisor: <a href="https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en">Prof. Linqi Song</a>.</li>
-  </ul>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-item__logo">
+        <img src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group">
+      </div>
+      <div class="timeline-item__body">
+        <div class="timeline-item__title">Research Intern</div>
+        <div class="timeline-item__org">Ant Group</div>
+        <div class="timeline-item__date">2026.03 – present</div>
+        <div class="timeline-item__desc">Supervisor: <a href="https://zicofish.github.io/">Zhicong Huang</a>.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-item__logo">
+        <img src="{{ '/images/logos/cas.svg' | relative_url }}" alt="CAS">
+      </div>
+      <div class="timeline-item__body">
+        <div class="timeline-item__title">Research Assistant</div>
+        <div class="timeline-item__org">Centre for Artificial Intelligence and Robotics (CAIR), Hong Kong Institute of Science &amp; Innovation, Chinese Academy of Sciences (HKISI-CAS)</div>
+        <div class="timeline-item__date">2023.06 – 2024.05</div>
+        <div class="timeline-item__desc">Worked on surgical LLMs and image segmentation. Supervisor: <a href="https://scholar.google.com.hk/citations?user=XujjZmUAAAAJ&hl=zh-CN">Dr. Jinlin Wu</a>.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-item__logo">
+        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="CityU">
+      </div>
+      <div class="timeline-item__body">
+        <div class="timeline-item__title">Project Participant</div>
+        <div class="timeline-item__org"><a href="https://www.cityu.edu.hk/">City University of Hong Kong</a></div>
+        <div class="timeline-item__date">2022.09 – 2023.08</div>
+        <div class="timeline-item__desc">Worked on financial machine translation. Supervisor: <a href="https://scholar.google.com/citations?user=UcGN3MoAAAAJ&hl=en">Prof. Linqi Song</a>.</div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <script type="text/javascript">
