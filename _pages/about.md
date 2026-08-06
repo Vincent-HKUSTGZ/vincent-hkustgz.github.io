@@ -54,17 +54,17 @@ redirect_from:
 
   <div class="research-pillars">
     <div class="pillar pillar--security">
-      <div class="pillar-icon" aria-hidden="true">🔐</div>
+      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt=""></div>
       <div class="pillar-title">Security &amp; Privacy</div>
       <div class="pillar-sub">Studying backdoors, jailbreaks, and privacy risks in modern AI models.</div>
     </div>
     <div class="pillar pillar--aigt">
-      <div class="pillar-icon" aria-hidden="true">🔎</div>
+      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt=""></div>
       <div class="pillar-title">AI-Generated Content Detection</div>
       <div class="pillar-sub">Detecting and monitoring machine-generated text and multimodal content in the wild.</div>
     </div>
     <div class="pillar pillar--safety">
-      <div class="pillar-icon" aria-hidden="true">🛡️</div>
+      <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt=""></div>
       <div class="pillar-title">AI For Safety</div>
       <div class="pillar-sub">Mitigating AI-driven harms and improving the safety of deployed systems.</div>
     </div>
