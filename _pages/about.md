@@ -75,21 +75,21 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
-    <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true">✅</span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
-    <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true">🔊</span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true">🏆</span>I received <strong>First Prize</strong> in the <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition of the 2025 China Intelligent Vehicle Future Challenge</a>.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true">🎙️</span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
-    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true">🏅</span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
-    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true">📊</span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
-    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true">🔍</span><a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
-    <li><span class="news-date">[2025.06]</span> <span class="news-icon" aria-hidden="true">🛡️</span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
-    <li><span class="news-date">[2025.05]</span> <span class="news-icon" aria-hidden="true">✨</span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at <strong>ACL 2025</strong>, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at <strong>KDD 2025</strong>.</li>
-    <li><span class="news-date">[2025.03]</span> <span class="news-icon" aria-hidden="true">🔐</span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at <strong>IEEE S&amp;P 2025</strong>.</li>
+    <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt=""></span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
+    <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt=""></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt=""></span>I received <strong>First Prize</strong> in the <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition of the 2025 China Intelligent Vehicle Future Challenge</a>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt=""></span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
+    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
+    <li><span class="news-date">[2025.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt=""></span><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/abc663d2e6b189615a210cb931f935ea-Abstract-Datasets_and_Benchmarks_Track.html">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
+    <li><span class="news-date">[2025.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
+    <li><span class="news-date">[2025.05]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-celebrate.png' | relative_url }}" alt=""></span><a href="https://aclanthology.org/2025.acl-long.1120/">AIGT on Social Media</a> was accepted at <strong>ACL 2025</strong>, and <a href="https://arxiv.org/abs/2412.17242">MGT Generalization</a> plus <a href="https://arxiv.org/abs/2503.08708">TH-Bench</a> were accepted at <strong>KDD 2025</strong>.</li>
+    <li><span class="news-date">[2025.03]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt=""></span><a href="https://arxiv.org/abs/2411.17453">PEFTGuard</a> was accepted at <strong>IEEE S&amp;P 2025</strong>.</li>
   </ul>
   <div id="hidden-news" class="is-hidden">
     <ul class="list-compact">
-      <li><span class="news-date">[2024.11]</span> <span class="news-icon" aria-hidden="true">🏆</span>AdSpectorX received the <strong>Best Paper Award</strong> at SENSYS-SocialMeta 2024.</li>
-      <li><span class="news-date">[2024.06]</span> <span class="news-icon" aria-hidden="true">🎓</span>I received my firm PhD offer from HKUST(GZ).</li>
+      <li><span class="news-date">[2024.11]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt=""></span>AdSpectorX received the <strong>Best Paper Award</strong> at SENSYS-SocialMeta 2024.</li>
+      <li><span class="news-date">[2024.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt=""></span>I received my firm PhD offer from HKUST(GZ).</li>
     </ul>
   </div>
   <p><span class="news-toggle" onclick="toggleNews()">Show more news</span></p>
@@ -100,9 +100,12 @@ redirect_from:
   <h2>Selected Papers</h2>
   <p class="section-note"><sup>*</sup> denotes equal contribution. <sup>&dagger;</sup> denotes corresponding author. The complete list can be found at <a href="https://scholar.google.com/citations?user=7ir2zYsAAAAJ&hl=en">Google Scholar</a>.</p>
 
-  <div class="pub-list">
+  <div class="pub-list" id="paper-list">
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">IEEE S&amp;P</span></div>
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://sp2025.ieee-security.org/" aria-label="IEEE Symposium on Security and Privacy 2025 website"><img src="{{ '/images/conferences/ieee-sp-2025.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">IEEE S&amp;P</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2411.17453">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
         <div class="pub-authors"><strong>Zhen Sun</strong>, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, Xinyi Huang.</div>
@@ -110,7 +113,10 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">ACL</span></div>
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://2025.aclweb.org/" aria-label="ACL 2025 website"><img src="{{ '/images/conferences/acl-2025.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">ACL</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://aclanthology.org/2025.acl-long.1120/">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
         <div class="pub-authors"><strong>Zhen Sun<sup>*</sup></strong>, Zongmin Zhang<sup>*</sup>, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</div>
@@ -118,7 +124,10 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span></div>
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://2025.emnlp.org/" aria-label="EMNLP 2025 website"><img src="{{ '/images/conferences/emnlp-2025.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2502.21059">FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts</a></div>
         <div class="pub-authors">Ziyi Zhang<sup>*</sup>, <strong>Zhen Sun</strong><sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.</div>
@@ -126,7 +135,10 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span></div>
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://iclr.cc/Conferences/2026" aria-label="ICLR 2026 website"><img src="{{ '/images/conferences/iclr-2026.svg' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
         <div class="pub-authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</div>
@@ -134,39 +146,54 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span></div>
+      <div class="pub-meta">
+        <a class="pub-venue-logo pub-venue-logo--dark" href="https://www.usenix.org/conference/usenixsecurity25" aria-label="USENIX Security 2025 website"><img src="{{ '/images/conferences/usenix-security-2025.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</a></div>
         <div class="pub-authors">Zeren Luo, Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Jingyi Zheng, Xinlei He.</div>
       </div>
     </div>
 
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span></div>
+    <div class="pub-entry pub-entry--extra is-hidden">
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://neurips.cc/Conferences/2025" aria-label="NeurIPS 2025 website"><img src="{{ '/images/conferences/neurips-2025.svg' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span></div>
+      </div>
       <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2509.18874">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
+        <div class="pub-title"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/abc663d2e6b189615a210cb931f935ea-Abstract-Datasets_and_Benchmarks_Track.html">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
         <div class="pub-authors">Jingyi Zheng, Tianyi Hu, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Zifan Peng, Wenhan Dong, Xinlei He.</div>
       </div>
     </div>
 
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">AAAI · Oral</span></div>
+    <div class="pub-entry pub-entry--extra is-hidden">
+      <div class="pub-meta">
+        <a class="pub-venue-logo pub-venue-logo--dark" href="https://aaai.org/conference/aaai/aaai-26/" aria-label="AAAI 2026 website"><img src="{{ '/images/conferences/aaai-2026.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">AAAI · Oral</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2512.19058">6DAttack: Backdoor Attacks in the 6DoF Pose Estimation</a></div>
         <div class="pub-authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</div>
       </div>
     </div>
 
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
+    <div class="pub-entry pub-entry--extra is-hidden">
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://kdd2025.kdd.org/" aria-label="KDD 2025 website"><img src="{{ '/images/conferences/kdd-2025.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2503.08708">TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors</a></div>
         <div class="pub-authors">Jingyi Zheng, Junfeng Wang, <strong>Zhen Sun</strong>, Wenhan Dong, Yule Liu, Xinlei He.</div>
       </div>
     </div>
 
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
+    <div class="pub-entry pub-entry--extra is-hidden">
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://kdd2025.kdd.org/" aria-label="KDD 2025 website"><img src="{{ '/images/conferences/kdd-2025.png' | relative_url }}" alt=""></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">KDD</span></div>
+      </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2412.17242">On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing</a></div>
         <div class="pub-authors">Yule Liu, Zhiyuan Zhong, Yifan Liao, <strong>Zhen Sun</strong>, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He.</div>
@@ -174,6 +201,7 @@ redirect_from:
     </div>
 
   </div>
+  <p class="paper-toggle-wrap"><button class="paper-toggle" type="button" aria-controls="paper-list" aria-expanded="false" onclick="togglePapers()">Show more papers</button></p>
 </section>
 
 <span class="anchor" id="services"></span>
@@ -198,7 +226,7 @@ redirect_from:
     <li><strong>First Prize</strong>, <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition, 2025 China Intelligent Vehicle Future Challenge</a>, 2025</li>
     <li><strong>DSA Excellent Research Award</strong>, 2025</li>
     <li><strong>Best Paper Award</strong>, SENSYS-SocialMeta 2024</li>
-    <li>Kaggle Competitions Expert (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
+    <li><strong>Kaggle Competitions Expert</strong> (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
     <li><strong>BUPT Third-class Scholarship &amp; Excellent Student Leader</strong>, 2019 / 2020 / 2021</li>
   </ul>
 </section>
@@ -252,7 +280,7 @@ redirect_from:
         <div class="timeline-item__title">Research Intern</div>
         <div class="timeline-item__org">Ant Group</div>
         <div class="timeline-item__date">2026.03 – present</div>
-        <div class="timeline-item__desc">Supervisor: <a href="https://zicofish.github.io/">Zhicong Huang</a>.</div>
+        <div class="timeline-item__desc">Worked on AI security. Supervisor: <a href="https://zicofish.github.io/">Zhicong Huang</a>.</div>
       </div>
     </div>
     <div class="timeline-item">
@@ -291,5 +319,18 @@ redirect_from:
       hidden.classList.add('is-hidden');
       toggle.textContent = 'Show more news';
     }
+  }
+
+  function togglePapers() {
+    var papers = document.querySelectorAll('.pub-entry--extra');
+    var toggle = document.querySelector('.paper-toggle');
+    var shouldExpand = papers.length > 0 && papers[0].classList.contains('is-hidden');
+
+    Array.prototype.forEach.call(papers, function (paper) {
+      paper.classList.toggle('is-hidden', !shouldExpand);
+    });
+
+    toggle.textContent = shouldExpand ? 'Show fewer papers' : 'Show more papers';
+    toggle.setAttribute('aria-expanded', shouldExpand ? 'true' : 'false');
   }
 </script>
