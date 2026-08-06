@@ -229,7 +229,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="CityU">
+        <img src="{{ '/images/logos/cityu.png' | relative_url }}" alt="CityU">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">MSc in Computer Science</div>
@@ -238,7 +238,7 @@ redirect_from:
       </div>
     </div>
     <div class="timeline-item">
-      <div class="timeline-item__logo timeline-item__logo--contain">
+      <div class="timeline-item__logo">
         <img src="{{ '/images/logos/bupt.png' | relative_url }}" alt="BUPT">
       </div>
       <div class="timeline-item__body">
@@ -267,7 +267,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cas.svg' | relative_url }}" alt="CAS">
+        <img src="{{ '/images/logos/cas.png' | relative_url }}" alt="CAS">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Research Assistant</div>
@@ -278,7 +278,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="CityU">
+        <img src="{{ '/images/logos/cityu.png' | relative_url }}" alt="CityU">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Project Participant</div>
