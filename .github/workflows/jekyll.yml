@@ -62,3 +62,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # DNS/domain verification can make Pages promotion exceed the
+          # action's 10-minute default even after the build has succeeded.
+          timeout: '1800000'
