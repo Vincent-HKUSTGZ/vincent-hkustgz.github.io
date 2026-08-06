@@ -280,7 +280,7 @@ redirect_from:
         <div class="timeline-item__title">Research Intern</div>
         <div class="timeline-item__org">Ant Group</div>
         <div class="timeline-item__date">2026.03 – present</div>
-        <div class="timeline-item__desc">Worked on AI security. Supervisor: <a href="https://zicofish.github.io/">Zhicong Huang</a>.</div>
+        <div class="timeline-item__desc">Worked on AI security. Supervisor: Dr. <a href="https://zicofish.github.io/">Zhicong Huang</a>.</div>
       </div>
     </div>
     <div class="timeline-item">
