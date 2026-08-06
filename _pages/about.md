@@ -53,19 +53,18 @@ redirect_from:
   </p>
 
   <div class="research-pillars">
-    <div class="pillar pillar--trust">
-      <div class="pillar-title">Trustworthy AI</div>
-      <div class="pillar-sub">Building reliable and responsible AI systems across the model lifecycle.</div>
-    </div>
     <div class="pillar pillar--security">
-      <div class="pillar-title">AI Security &amp; Privacy</div>
+      <div class="pillar-icon" aria-hidden="true"><i class="fas fa-shield-alt"></i></div>
+      <div class="pillar-title">Security &amp; Privacy</div>
       <div class="pillar-sub">Studying backdoors, jailbreaks, and privacy risks in modern AI models.</div>
     </div>
     <div class="pillar pillar--aigt">
+      <div class="pillar-icon" aria-hidden="true"><i class="fas fa-search"></i></div>
       <div class="pillar-title">AI-Generated Content Detection</div>
       <div class="pillar-sub">Detecting and monitoring machine-generated text and multimodal content in the wild.</div>
     </div>
     <div class="pillar pillar--safety">
+      <div class="pillar-icon" aria-hidden="true"><i class="fas fa-user-shield"></i></div>
       <div class="pillar-title">AI For Safety</div>
       <div class="pillar-sub">Mitigating AI-driven harms and improving the safety of deployed systems.</div>
     </div>
@@ -76,9 +75,9 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
-    <li><span class="news-date">[2026.01]</span> <a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
-    <li><span class="news-date">[2025.12]</span> <a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
-    <li><span class="news-date">[2025.12]</span> I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
+    <li><span class="news-date">[2026.01]</span> <span class="news-icon news-icon--paper" aria-hidden="true"><i class="fas fa-file-alt"></i></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon news-icon--oral" aria-hidden="true"><i class="fas fa-microphone-alt"></i></span><a href="https://arxiv.org/abs/2512.19058">6DAttack</a> was accepted at <strong>AAAI 2026</strong> as an Oral presentation.</li>
+    <li><span class="news-date">[2025.12]</span> <span class="news-icon news-icon--award" aria-hidden="true"><i class="fas fa-award"></i></span>I received the <strong>2025 DSA Excellent Research Award</strong>.</li>
     <li><span class="news-date">[2025.09]</span> <a href="https://arxiv.org/abs/2502.21059">FC-Attack</a> was accepted at <strong>EMNLP 2025 Findings</strong>.</li>
     <li><span class="news-date">[2025.09]</span> <a href="https://arxiv.org/abs/2509.18874">CHASM</a> was accepted at <strong>NeurIPS 2025</strong>.</li>
     <li><span class="news-date">[2025.06]</span> <a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search</a> was accepted at <strong>USENIX Security 2025</strong>.</li>
@@ -101,29 +100,10 @@ redirect_from:
 
   <div class="pub-list">
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span><span class="pub-tag">CCF-A</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
-        <div class="pub-authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</div>
-        <div class="pub-links"><a href="https://openreview.net/forum?id=DJkQ236C8B">PDF</a></div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">AAAI</span><span class="pub-tag">CCF-A · Oral</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2512.19058">6DAttack: Backdoor Attacks in the 6DoF Pose Estimation</a></div>
-        <div class="pub-authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2512.19058">PDF</a></div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
       <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">IEEE S&amp;P</span><span class="pub-tag">CCF-A</span></div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2411.17453">PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning</a></div>
         <div class="pub-authors"><strong>Zhen Sun</strong>, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, Xinyi Huang.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2411.17453">PDF</a></div>
       </div>
     </div>
 
@@ -132,43 +112,6 @@ redirect_from:
       <div class="pub-content">
         <div class="pub-title"><a href="https://aclanthology.org/2025.acl-long.1120/">Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media</a></div>
         <div class="pub-authors"><strong>Zhen Sun<sup>*</sup></strong>, Zongmin Zhang<sup>*</sup>, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He.</div>
-        <div class="pub-links"><a href="https://aclanthology.org/2025.acl-long.1120/">PDF</a></div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span><span class="pub-tag">CCF-A</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</a></div>
-        <div class="pub-authors">Zeren Luo, Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Jingyi Zheng, Xinlei He.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2502.04951">PDF</a></div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span><span class="pub-tag">CCF-A</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2509.18874">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
-        <div class="pub-authors">Jingyi Zheng, Tianyi Hu, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Zifan Peng, Wenhan Dong, Xinlei He.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2509.18874">PDF</a></div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span><span class="pub-tag">CCF-A</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2503.08708">TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors</a></div>
-        <div class="pub-authors">Jingyi Zheng, Junfeng Wang, <strong>Zhen Sun</strong>, Wenhan Dong, Yule Liu, Xinlei He.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2503.08708">PDF</a></div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span><span class="pub-tag">CCF-A</span></div>
-      <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2412.17242">On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing</a></div>
-        <div class="pub-authors">Yule Liu, Zhiyuan Zhong, Yifan Liao, <strong>Zhen Sun</strong>, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2412.17242">PDF</a></div>
       </div>
     </div>
 
@@ -177,16 +120,62 @@ redirect_from:
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2502.21059">FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts</a></div>
         <div class="pub-authors">Ziyi Zhang<sup>*</sup>, <strong>Zhen Sun</strong><sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.</div>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2502.21059">PDF</a></div>
       </div>
     </div>
 
     <div class="pub-entry">
-      <div class="pub-meta"><span class="pub-year">2024</span><span class="pub-venue">SENSYS-SocialMeta</span><span class="pub-tag">Best Paper</span></div>
+      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span><span class="pub-tag">CCF-A</span></div>
       <div class="pub-content">
-        <div class="pub-title">AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media</div>
+        <div class="pub-title"><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
+        <div class="pub-authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2502.04951">Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search</a></div>
+        <div class="pub-authors">Zeren Luo, Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Jingyi Zheng, Xinlei He.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">NeurIPS</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2509.18874">CHASM: Unveiling Covert Advertisements on Chinese Social Media</a></div>
+        <div class="pub-authors">Jingyi Zheng, Tianyi Hu, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Zifan Peng, Wenhan Dong, Xinlei He.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-venue">AAAI</span><span class="pub-tag">CCF-A · Oral</span></div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2512.19058">6DAttack: Backdoor Attacks in the 6DoF Pose Estimation</a></div>
+        <div class="pub-authors">Jihui Guo, Zongmin Zhang, <strong>Zhen Sun</strong>, Yuhao Yang, Jinlin Wu, Fu Zhang, Xinlei He.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2503.08708">TH-Bench: Evaluating Evading Attacks via Humanizing AI Text on Machine-Generated Text Detectors</a></div>
+        <div class="pub-authors">Jingyi Zheng, Junfeng Wang, <strong>Zhen Sun</strong>, Wenhan Dong, Yule Liu, Xinlei He.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-venue">KDD</span><span class="pub-tag">CCF-A</span></div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2412.17242">On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing</a></div>
+        <div class="pub-authors">Yule Liu, Zhiyuan Zhong, Yifan Liao, <strong>Zhen Sun</strong>, Jingyi Zheng, Jiaheng Wei, Qingyuan Gong, Fenghua Tong, Yang Chen, Yang Zhang, Xinlei He.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta"><span class="pub-year">2024</span><span class="pub-venue">SENSYS-SocialMeta</span></div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://doi.org/10.1145/3698387.3700001">AdSpectorX: A Multimodal Expert Spector for Covert Advertising Detection on Chinese Social Media</a></div>
         <div class="pub-authors">Zongmin Zhang, Yujie Han, Zhou Zhang, Yule Liu, Jingyi Zheng, <strong>Zhen Sun</strong><sup>&dagger;</sup>.</div>
-        <div class="pub-award">Best Paper Award</div>
       </div>
     </div>
   </div>
@@ -208,9 +197,7 @@ redirect_from:
     <li><strong>DSA Excellent Research Award</strong>, 2025</li>
     <li><strong>Best Paper Award</strong>, SENSYS-SocialMeta 2024</li>
     <li>Kaggle Competitions Expert (<a href="https://www.kaggle.com/rdxsun">Vincent Sirius</a>)</li>
-    <li><strong>MCM/ICM Meritorious Winner</strong>, 2020.04</li>
-    <li>Third-class Scholarship of BUPT, 2019 / 2020 / 2021</li>
-    <li>Excellent Student Leader of BUPT, 2019 / 2020 / 2021</li>
+    <li><strong>BUPT Third-class Scholarship &amp; Excellent Student Leader</strong>, 2019 / 2020 / 2021</li>
   </ul>
 </section>
 
@@ -230,7 +217,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cityu.png' | relative_url }}" alt="CityU">
+        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="City University of Hong Kong">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">MSc in Computer Science</div>
@@ -256,8 +243,8 @@ redirect_from:
   <h2>Experience</h2>
   <div class="timeline">
     <div class="timeline-item">
-      <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/ant.png' | relative_url }}" alt="Ant Group">
+      <div class="timeline-item__logo timeline-item__logo--ant">
+        <img class="timeline-logo--ant" src="{{ '/images/logos/ant.svg' | relative_url }}" alt="Ant Group">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Research Intern</div>
@@ -279,7 +266,7 @@ redirect_from:
     </div>
     <div class="timeline-item">
       <div class="timeline-item__logo">
-        <img src="{{ '/images/logos/cityu.png' | relative_url }}" alt="CityU">
+        <img src="{{ '/images/logos/cityu.svg' | relative_url }}" alt="City University of Hong Kong">
       </div>
       <div class="timeline-item__body">
         <div class="timeline-item__title">Project Participant</div>

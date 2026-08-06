@@ -302,52 +302,74 @@ $scroll_offset: 3.5em;
 }
 
 .research-pillars {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: stretch;
-  margin: 0 0 12px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0 12px;
   width: 100%;
   box-sizing: border-box;
 }
 
 .pillar {
-  flex: 1 1 calc(50% - 8px);
-  min-width: 160px;
-  padding: 14px 14px 12px;
-  border-radius: 8px;
-  font-size: 12.5px;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  min-width: 0;
+  padding: 16px 16px 15px;
+  border: 1px solid var(--pillar-border);
+  border-radius: 10px;
+  background: var(--pillar-bg);
+  box-shadow: 0 1px 2px rgba(25, 36, 42, 0.035);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 
   &:hover {
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.11);
-    transform: translateY(-2px);
+    border-color: var(--pillar-accent);
+    box-shadow: 0 7px 18px rgba(25, 36, 42, 0.08);
+    transform: translateY(-1px);
   }
 }
 
-.pillar--trust { background: #fdf0f0; }
-.pillar--security { background: #eef4fd; }
-.pillar--aigt { background: #f4f4f4; }
-.pillar--safety { background: #f0f8f2; }
+.pillar--security {
+  --pillar-bg: #f3f6f8;
+  --pillar-border: #dbe4e9;
+  --pillar-accent: #526f81;
+}
+
+.pillar--aigt {
+  --pillar-bg: #f8f5ef;
+  --pillar-border: #e8dfd1;
+  --pillar-accent: #8a704d;
+}
+
+.pillar--safety {
+  --pillar-bg: #f2f6f3;
+  --pillar-border: #d8e5de;
+  --pillar-accent: #547867;
+}
+
+.pillar-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: var(--pillar-accent);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0 0 0 1px var(--pillar-border);
+  font-size: 13px;
+}
 
 .pillar-title {
   font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 5px;
+  color: #25343b;
 }
 
-.pillar--trust .pillar-title { color: #c0392b; }
-.pillar--security .pillar-title { color: #1772d0; }
-.pillar--aigt .pillar-title { color: #444; }
-.pillar--safety .pillar-title { color: #2e7d32; }
-
 .pillar-sub {
-  color: #777;
-  font-size: 11.5px;
-  font-style: italic;
-  line-height: 1.5;
-  margin-top: 4px;
+  color: #647078;
+  font-size: 12px;
+  line-height: 1.55;
 }
 
 .list-compact {
@@ -364,6 +386,19 @@ $scroll_offset: 3.5em;
   font-weight: 700;
   color: #222;
 }
+
+.news-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4em;
+  margin-right: 2px;
+  font-size: 0.8em;
+  color: #6b7a84;
+}
+
+.news-icon--oral { color: #7f6748; }
+.news-icon--award { color: #8d6b2c; }
 
 .news-toggle {
   cursor: pointer;
@@ -457,29 +492,6 @@ $scroll_offset: 3.5em;
   margin-top: 3px;
 }
 
-.pub-award {
-  font-size: 13px;
-  font-weight: 600;
-  color: #c62828;
-  margin-top: 5px;
-}
-
-.pub-links {
-  margin-top: 2px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-
-  a {
-    font-size: 13px;
-    color: $link-color;
-
-    &:hover {
-      color: $link-color-hover;
-    }
-  }
-}
-
 .timeline {
   display: flex;
   flex-direction: column;
@@ -502,23 +514,36 @@ $scroll_offset: 3.5em;
 
 .timeline-item__logo {
   flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #fff;
-  border: 1px solid #eaeaea;
+  width: 52px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 2px;
   box-sizing: border-box;
 
   img {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     display: block;
+  }
+}
+
+.timeline-item__logo--ant {
+  position: relative;
+  overflow: hidden;
+
+  .timeline-logo--ant {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 150px;
+    height: 45px;
+    max-width: none;
+    max-height: none;
   }
 }
 
@@ -614,11 +639,11 @@ $scroll_offset: 3.5em;
   }
 
   .research-pillars {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .pillar {
-    flex: 1 1 100%;
+    padding: 15px;
   }
 
   .pub-entry {
