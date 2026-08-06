@@ -60,13 +60,13 @@ redirect_from:
     </div>
     <div class="pillar pillar--aigt">
       <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt="" decoding="async"></div>
-      <div class="pillar-title">AI-Generated Content Detection</div>
-      <div class="pillar-sub">Detecting and monitoring machine-generated text and multimodal content in the wild.</div>
+      <div class="pillar-title">Content Moderation</div>
+      <div class="pillar-sub">Detecting and moderating harmful, deceptive, and AI-generated content.</div>
     </div>
     <div class="pillar pillar--safety">
       <div class="pillar-icon" aria-hidden="true"><img src="{{ '/images/icons/ai-for-safety.png' | relative_url }}" alt="" decoding="async"></div>
-      <div class="pillar-title">AI For Safety</div>
-      <div class="pillar-sub">Mitigating AI-driven harms and improving the safety of deployed systems.</div>
+      <div class="pillar-title">AI Application</div>
+      <div class="pillar-sub">Applying AI to enhance model capabilities and practical utility.</div>
     </div>
   </div>
 </section>
@@ -92,7 +92,7 @@ redirect_from:
       <li><span class="news-date">[2024.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I received my firm PhD offer from HKUST(GZ).</li>
     </ul>
   </div>
-  <p><span class="news-toggle" onclick="toggleNews()">Show more news</span></p>
+  <p class="section-toggle-wrap"><button class="section-toggle news-toggle" type="button" aria-controls="hidden-news" aria-expanded="false" onclick="toggleNews()">Show more news</button></p>
 </section>
 
 <span class="anchor" id="publications"></span>
@@ -201,7 +201,7 @@ redirect_from:
     </div>
 
   </div>
-  <p class="paper-toggle-wrap"><button class="paper-toggle" type="button" aria-controls="paper-list" aria-expanded="false" onclick="togglePapers()">Show more papers</button></p>
+  <p class="section-toggle-wrap"><button class="section-toggle paper-toggle" type="button" aria-controls="paper-list" aria-expanded="false" onclick="togglePapers()">Show more papers</button></p>
 </section>
 
 <span class="anchor" id="services"></span>
@@ -315,9 +315,11 @@ redirect_from:
     if (hidden.classList.contains('is-hidden')) {
       hidden.classList.remove('is-hidden');
       toggle.textContent = 'Show less news';
+      toggle.setAttribute('aria-expanded', 'true');
     } else {
       hidden.classList.add('is-hidden');
       toggle.textContent = 'Show more news';
+      toggle.setAttribute('aria-expanded', 'false');
     }
   }
 
