@@ -4,7 +4,11 @@
     <button class="site-navbar__toggle" type="button" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('is-open')">&#9776;</button>
     <div class="site-navbar__links">
       {% for link in site.data.navigation.main %}
-        <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+        {% if link.url == "/" %}
+          <a href="{{ '/' | relative_url }}">{{ link.title }}</a>
+        {% else %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

@@ -43,7 +43,7 @@ redirect_from:
   <p>
     Hello! I'm a PhD student in Data Science and Analytics at
     <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>.
-    I am advised by Prof. <a href="https://xinleihe.github.io/">Xinlei He</a> (Wuhan University),
+    I am advised by Prof. <a href="https://xinleihe.github.io/">Xinlei He</a>,
     with primary supervision from Prof. <a href="https://sites.google.com/ucsc.edu/jiahengwei">Jiaheng Wei</a>
     and co-supervision from Prof. Yutao Yue at HKUST(GZ).
   </p>
