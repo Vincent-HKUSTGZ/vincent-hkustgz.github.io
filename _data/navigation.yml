@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: "Home"
+    url: "/"
+
   - title: "Research"
     url: "/#research"
 
@@ -7,7 +10,7 @@ main:
     url: "/#news"
 
   - title: "Papers"
-    url: "/#selected-works"
+    url: "/#publications"
 
   - title: "Awards"
     url: "/#honors"
