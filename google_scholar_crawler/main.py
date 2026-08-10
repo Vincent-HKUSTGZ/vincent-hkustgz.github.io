@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qs, quote, urlencode, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -143,51 +143,6 @@ def parse_profile_html(html: str, expected_scholar_id: str) -> tuple[str, int]:
     return name, counts[0]
 
 
-def parse_serpapi_payload(payload: dict, expected_scholar_id: str) -> tuple[str, int]:
-    if not isinstance(payload, dict):
-        raise ValueError("SerpApi returned an invalid response")
-
-    error = payload.get("error")
-    if error:
-        raise ValueError(f"SerpApi returned an error: {error}")
-
-    metadata = payload.get("search_metadata")
-    if not isinstance(metadata, dict) or metadata.get("status") != "Success":
-        raise ValueError("SerpApi search did not complete successfully")
-
-    parameters = payload.get("search_parameters")
-    if not isinstance(parameters, dict):
-        raise ValueError("SerpApi response did not contain search parameters")
-    returned_id = parameters.get("author_id")
-    if returned_id != expected_scholar_id:
-        raise ValueError(
-            f"SerpApi returned scholar_id {returned_id!r}, "
-            f"expected {expected_scholar_id!r}"
-        )
-
-    author = payload.get("author")
-    name = author.get("name") if isinstance(author, dict) else None
-    if not isinstance(name, str) or not name.strip():
-        raise ValueError("SerpApi response did not contain the author name")
-
-    cited_by = payload.get("cited_by")
-    table = cited_by.get("table") if isinstance(cited_by, dict) else None
-    if not isinstance(table, list):
-        raise ValueError("SerpApi response did not contain citation statistics")
-
-    citedby: int | None = None
-    for row in table:
-        citations = row.get("citations") if isinstance(row, dict) else None
-        value = citations.get("all") if isinstance(citations, dict) else None
-        if isinstance(value, int) and not isinstance(value, bool) and value >= 0:
-            citedby = value
-            break
-    if citedby is None:
-        raise ValueError("SerpApi response did not contain a valid citation count")
-
-    return name.strip(), citedby
-
-
 def _fetch_profile_html(scholar_id: str, attempt: int) -> str:
     timeout_seconds = _positive_int_from_env("SCHOLAR_HTTP_TIMEOUT_SECONDS", 30)
     profile_url = (
@@ -221,46 +176,6 @@ def _fetch_profile_html(scholar_id: str, attempt: int) -> str:
     return payload.decode(charset, errors="replace")
 
 
-def _fetch_serpapi_payload(scholar_id: str, api_key: str) -> dict:
-    timeout_seconds = _positive_int_from_env("SCHOLAR_HTTP_TIMEOUT_SECONDS", 30)
-    query = urlencode(
-        {
-            "engine": "google_scholar_author",
-            "author_id": scholar_id,
-            "hl": "en",
-            "api_key": api_key,
-        }
-    )
-    request = Request(
-        f"https://serpapi.com/search.json?{query}",
-        headers={
-            "User-Agent": "Zhen-Sun-Scholar-Sync/1.0",
-            "Accept": "application/json",
-        },
-    )
-
-    try:
-        with urlopen(request, timeout=timeout_seconds) as response:
-            status = getattr(response, "status", 200)
-            if status != 200:
-                raise ValueError(f"SerpApi returned HTTP {status}")
-            data = response.read(MAX_PROFILE_BYTES + 1)
-            if len(data) > MAX_PROFILE_BYTES:
-                raise ValueError("SerpApi response was unexpectedly large")
-    except HTTPError as exc:
-        raise RuntimeError(f"SerpApi returned HTTP {exc.code}") from exc
-    except (URLError, TimeoutError) as exc:
-        raise RuntimeError(f"SerpApi request failed: {exc}") from exc
-
-    try:
-        payload = json.loads(data)
-    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-        raise ValueError("SerpApi returned invalid JSON") from exc
-    if not isinstance(payload, dict):
-        raise ValueError("SerpApi returned an invalid response")
-    return payload
-
-
 def _load_previous_author(expected_scholar_id: str) -> dict:
     previous_path = RESULTS_DIR / DATA_FILENAME
     if not previous_path.exists():
@@ -278,7 +193,7 @@ def _load_previous_author(expected_scholar_id: str) -> dict:
     return author
 
 
-def _build_author(name: str, scholar_id: str, citedby: int, source: str) -> dict:
+def _build_author(name: str, scholar_id: str, citedby: int) -> dict:
     author = _load_previous_author(scholar_id)
     previous_citedby = author.get("citedby")
     if isinstance(previous_citedby, int) and citedby < previous_citedby:
@@ -294,7 +209,7 @@ def _build_author(name: str, scholar_id: str, citedby: int, source: str) -> dict
             "scholar_id": scholar_id,
             "citedby": citedby,
             "updated": datetime.now(timezone.utc).isoformat(),
-            "source": source,
+            "source": "GOOGLE_SCHOLAR_PROFILE_PAGE",
         }
     )
     publications = author.get("publications")
@@ -308,18 +223,9 @@ def fetch_once(output_dir: Path, attempt: int) -> None:
     if not scholar_id:
         raise ValueError("GOOGLE_SCHOLAR_ID is not configured")
 
-    api_key = os.environ.get("SERPAPI_API_KEY", "").strip()
-    if api_key:
-        payload = _fetch_serpapi_payload(scholar_id, api_key)
-        name, citedby = parse_serpapi_payload(payload, scholar_id)
-        source = "SERPAPI_GOOGLE_SCHOLAR_AUTHOR"
-    else:
-        # This fallback is useful for local development. GitHub-hosted runner IPs
-        # are routinely blocked by Scholar, so CI always supplies SERPAPI_API_KEY.
-        html = _fetch_profile_html(scholar_id, attempt)
-        name, citedby = parse_profile_html(html, scholar_id)
-        source = "GOOGLE_SCHOLAR_PROFILE_PAGE"
-    author = _build_author(name, scholar_id, citedby, source)
+    html = _fetch_profile_html(scholar_id, attempt)
+    name, citedby = parse_profile_html(html, scholar_id)
+    author = _build_author(name, scholar_id, citedby)
 
     shield_data = {
         "schemaVersion": 1,
@@ -328,7 +234,7 @@ def fetch_once(output_dir: Path, attempt: int) -> None:
     }
     _write_json(output_dir / DATA_FILENAME, author)
     _write_json(output_dir / SHIELD_FILENAME, shield_data)
-    print(f"Fetched {citedby} citations for {name} via {source}")
+    print(f"Fetched {citedby} citations for {name}")
 
 
 def validate_outputs(output_dir: Path) -> int:
