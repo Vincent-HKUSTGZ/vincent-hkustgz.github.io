@@ -20,7 +20,9 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Scholar blocks many shared Linux data-center IPs. GitHub's macOS runner
+    # uses a different egress pool and only needs a single lightweight request.
+    runs-on: macos-latest
     timeout-minutes: 10
     steps:
       - name: Check out repository
