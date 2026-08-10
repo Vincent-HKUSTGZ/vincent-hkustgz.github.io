@@ -1,6 +1,11 @@
 name: Get Citation Data
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/google_scholar_crawler.yaml"
+      - "google_scholar_crawler/**"
   schedule:
     # Run away from the top of the hour, when scheduled Actions are most delayed.
     - cron: "17 8 * * *"
