@@ -75,6 +75,7 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
+    <li><span class="news-date">[2026.08]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2605.30366">MARS</a> was accepted at <strong>NDSS 2027</strong>.</li>
     <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
     <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
     <li><span class="news-date">[2025.12]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-trophy.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I received <strong>First Prize</strong> in the <a href="https://kjj.wuhu.gov.cn/gg/gzdt/8894191.html">Offline Testing Algorithm Competition of the 2025 China Intelligent Vehicle Future Challenge</a>.</li>
@@ -136,6 +137,17 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-meta">
+        <a class="pub-venue-logo pub-venue-logo--dark" href="https://www.ndss-symposium.org/ndss2027/" aria-label="NDSS Symposium 2027 website"><img src="{{ '/images/conferences/ndss-2027.svg' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
+        <div class="pub-meta__text"><span class="pub-year">2027</span><span class="pub-venue">NDSS</span></div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2605.30366">Escaping the Linearity Trap: Manifold Detours for Black-Box Adversarial Attacks on Singing Audio Deepfake Detection</a></div>
+        <div class="pub-authors">Yifan Liao, <a href="https://y-l-liu.github.io/">Yule Liu</a>, <strong><a href="https://zhensun.cn/">Zhen Sun</a></strong>, <a href="https://zonmgin-zhang.github.io/ps/">Zongmin Zhang</a>, <a href="https://openreview.net/profile?id=~Yupeng_He1">Yupeng He</a>, <a href="https://sites.google.com/ucsc.edu/jiahengwei">Jiaheng Wei</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng">Xinhu Zheng</a>, <a href="https://xinleihe.github.io/">Xinlei He</a>.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-meta">
         <a class="pub-venue-logo" href="https://iclr.cc/Conferences/2026" aria-label="ICLR 2026 website"><img src="{{ '/images/conferences/iclr-2026.svg' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span></div>
       </div>
@@ -145,7 +157,7 @@ redirect_from:
       </div>
     </div>
 
-    <div class="pub-entry">
+    <div class="pub-entry pub-entry--extra is-hidden">
       <div class="pub-meta">
         <a class="pub-venue-logo pub-venue-logo--dark" href="https://www.usenix.org/conference/usenixsecurity25" aria-label="USENIX Security 2025 website"><img src="{{ '/images/conferences/usenix-security-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">USENIX Security</span></div>
