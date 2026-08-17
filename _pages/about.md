@@ -142,7 +142,7 @@ redirect_from:
       </div>
       <div class="pub-content">
         <div class="pub-title"><a href="https://arxiv.org/abs/2605.30366">Escaping the Linearity Trap: Manifold Detours for Black-Box Adversarial Attacks on Singing Audio Deepfake Detection</a></div>
-        <div class="pub-authors">Yifan Liao, <a href="https://y-l-liu.github.io/">Yule Liu</a>, <strong><a href="https://zhensun.cn/">Zhen Sun</a></strong>, <a href="https://zonmgin-zhang.github.io/ps/">Zongmin Zhang</a>, <a href="https://openreview.net/profile?id=~Yupeng_He1">Yupeng He</a>, <a href="https://sites.google.com/ucsc.edu/jiahengwei">Jiaheng Wei</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng">Xinhu Zheng</a>, <a href="https://xinleihe.github.io/">Xinlei He</a>.</div>
+        <div class="pub-authors">Yifan Liao, Yule Liu, <strong>Zhen Sun</strong>, Zongmin Zhang, Yupeng He, Jiaheng Wei, Xinhu Zheng, Xinlei He.</div>
       </div>
     </div>
 
