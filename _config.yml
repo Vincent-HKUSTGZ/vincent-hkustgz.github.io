@@ -9,7 +9,8 @@
 title                    : "Zhen Sun"
 description              : "PhD Candidate in Data Science and Analytics at HKUST(GZ)"
 repository               : "Vincent-HKUSTGZ/Vincent-HKUSTGZ.github.io"
-google_scholar_stats_use_cdn : true
+# Branch-based citation data can remain stale on jsDelivr after an automated update.
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
