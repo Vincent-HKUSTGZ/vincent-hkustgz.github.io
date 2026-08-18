@@ -1,55 +1,58 @@
 import unittest
 
-from main import parse_profile_html
+from main import _normalise_author
 
 
 SCHOLAR_ID = "7ir2zYsAAAAJ"
 
 
-class ParseProfileHtmlTests(unittest.TestCase):
-    def test_reads_citation_count_from_description_and_stats(self) -> None:
-        html = f"""
-        <html><head>
-          <link rel="canonical" href="https://scholar.google.com/citations?user={SCHOLAR_ID}&amp;hl=en">
-          <meta name="description" content="Ph.D. Candidate - Cited by 1,234 - LLM security">
-        </head><body>
-          <div id="gsc_prf_in">Zhen Sun</div>
-          <a class="gsc_rsb_std">1,234</a>
-        </body></html>
-        """
+class NormaliseAuthorTests(unittest.TestCase):
+    def test_normalises_valid_author(self) -> None:
+        author = {
+            "name": "Zhen Sun",
+            "scholar_id": SCHOLAR_ID,
+            "citedby": 836,
+            "publications": [
+                {"author_pub_id": "paper-1", "bib": {"title": "Paper One"}},
+                {"bib": {"title": "Incomplete entry"}},
+            ],
+        }
 
-        self.assertEqual(parse_profile_html(html, SCHOLAR_ID), ("Zhen Sun", 1234))
+        result = _normalise_author(author, SCHOLAR_ID)
 
-    def test_uses_stats_when_description_is_missing(self) -> None:
-        html = f"""
-        <link rel="canonical" href="https://scholar.google.com/citations?user={SCHOLAR_ID}">
-        <div id="gsc_prf_in">Zhen Sun</div>
-        <a class="gsc_rsb_std">836</a>
-        """
+        self.assertEqual(result["citedby"], 836)
+        self.assertEqual(list(result["publications"]), ["paper-1"])
+        self.assertEqual(result["source"], "SCHOLARLY_1_5_1")
+        self.assertIn("updated", result)
 
-        self.assertEqual(parse_profile_html(html, SCHOLAR_ID), ("Zhen Sun", 836))
+    def test_accepts_publications_dictionary(self) -> None:
+        author = {
+            "scholar_id": SCHOLAR_ID,
+            "citedby": 836,
+            "publications": {"paper-1": {"author_pub_id": "paper-1"}},
+        }
+
+        result = _normalise_author(author, SCHOLAR_ID)
+
+        self.assertIn("paper-1", result["publications"])
 
     def test_rejects_wrong_profile(self) -> None:
-        html = """
-        <link rel="canonical" href="https://scholar.google.com/citations?user=wrong-id">
-        <meta name="description" content="Cited by 836">
-        """
+        author = {"scholar_id": "wrong-id", "citedby": 836, "publications": []}
 
         with self.assertRaisesRegex(ValueError, "expected"):
-            parse_profile_html(html, SCHOLAR_ID)
+            _normalise_author(author, SCHOLAR_ID)
 
-    def test_rejects_bot_check_page(self) -> None:
-        with self.assertRaisesRegex(ValueError, "bot-check"):
-            parse_profile_html("Please confirm you are not a robot", SCHOLAR_ID)
+    def test_rejects_invalid_citation_count(self) -> None:
+        author = {"scholar_id": SCHOLAR_ID, "citedby": "836", "publications": []}
 
-    def test_rejects_conflicting_counts(self) -> None:
-        html = """
-        <meta name="description" content="Cited by 836">
-        <a class="gsc_rsb_std">835</a>
-        """
+        with self.assertRaisesRegex(ValueError, "Invalid citation count"):
+            _normalise_author(author, SCHOLAR_ID)
 
-        with self.assertRaisesRegex(ValueError, "conflicting"):
-            parse_profile_html(html, SCHOLAR_ID)
+    def test_rejects_invalid_publications(self) -> None:
+        author = {"scholar_id": SCHOLAR_ID, "citedby": 836, "publications": "invalid"}
+
+        with self.assertRaisesRegex(ValueError, "publications collection"):
+            _normalise_author(author, SCHOLAR_ID)
 
 
 if __name__ == "__main__":
