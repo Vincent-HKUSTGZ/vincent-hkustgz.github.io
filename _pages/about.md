@@ -75,6 +75,7 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
+    <li><span class="news-date">[2026.08]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2606.05626">Lifelong MGT Attribution</a> was accepted at <strong>EMNLP 2026</strong>.</li>
     <li><span class="news-date">[2026.08]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2605.30366">MARS</a> was accepted at <strong>NDSS 2027</strong>.</li>
     <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
     <li><span class="news-date">[2026.01]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench</a> was accepted at <strong>ICLR 2026</strong>.</li>
@@ -126,12 +127,12 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-meta">
-        <a class="pub-venue-logo" href="https://2025.emnlp.org/" aria-label="EMNLP 2025 website"><img src="{{ '/images/conferences/emnlp-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
-        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span></div>
+        <a class="pub-venue-logo" href="https://2026.emnlp.org/" aria-label="EMNLP 2026 website"><img src="{{ '/images/conferences/emnlp-2026.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
+        <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">EMNLP</span></div>
       </div>
       <div class="pub-content">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2502.21059">FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts</a></div>
-        <div class="pub-authors">Ziyi Zhang<sup>*</sup>, <strong>Zhen Sun</strong><sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.</div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2606.05626">When New Generators Arrive: Lifelong Machine-Generated Text Attribution via Ridge Feature Transfer</a></div>
+        <div class="pub-authors"><strong>Zhen Sun</strong>, Yifan Liao, Zhicong Huang, Jiaheng Wei, Cheng Hong, Yutao Yue, Xinlei He.</div>
       </div>
     </div>
 
@@ -154,6 +155,17 @@ redirect_from:
       <div class="pub-content">
         <div class="pub-title"><a href="https://openreview.net/forum?id=DJkQ236C8B">JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models</a></div>
         <div class="pub-authors">Zifan Peng, Yule Liu, <strong>Zhen Sun</strong>, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, Shengmin Xu, Xinyi Huang.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry pub-entry--extra is-hidden">
+      <div class="pub-meta">
+        <a class="pub-venue-logo" href="https://2025.emnlp.org/" aria-label="EMNLP 2025 website"><img src="{{ '/images/conferences/emnlp-2025.png' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
+        <div class="pub-meta__text"><span class="pub-year">2025</span><span class="pub-venue">EMNLP Findings</span></div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2502.21059">FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts</a></div>
+        <div class="pub-authors">Ziyi Zhang<sup>*</sup>, <strong>Zhen Sun</strong><sup>*</sup>, Zongmin Zhang, Jihui Guo, Xinlei He.</div>
       </div>
     </div>
 
