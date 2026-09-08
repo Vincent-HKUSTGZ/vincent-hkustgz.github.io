@@ -75,6 +75,7 @@ redirect_from:
 <section class="page-section">
   <h2>News</h2>
   <ul class="list-compact">
+    <li><span class="news-date">[2026.09]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/security-privacy.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2511.14045">DIBA</a> was accepted at <strong>NDSS 2027</strong>.</li>
     <li><span class="news-date">[2026.08]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/content-detection.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2606.05626">Lifelong MGT Attribution</a> was accepted at <strong>EMNLP 2026</strong>.</li>
     <li><span class="news-date">[2026.08]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-evil.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span><a href="https://arxiv.org/abs/2605.30366">MARS</a> was accepted at <strong>NDSS 2027</strong>.</li>
     <li><span class="news-date">[2026.06]</span> <span class="news-icon" aria-hidden="true"><img src="{{ '/images/icons/news-graduation.png' | relative_url }}" alt="" loading="lazy" decoding="async"></span>I passed the <strong>PhD Qualifying Examination</strong> at HKUST(GZ).</li>
@@ -148,6 +149,17 @@ redirect_from:
     </div>
 
     <div class="pub-entry">
+      <div class="pub-meta">
+        <a class="pub-venue-logo pub-venue-logo--dark" href="https://www.ndss-symposium.org/ndss2027/" aria-label="NDSS Symposium 2027 website"><img src="{{ '/images/conferences/ndss-2027.svg' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
+        <div class="pub-meta__text"><span class="pub-year">2027</span><span class="pub-venue">NDSS</span></div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title"><a href="https://arxiv.org/abs/2511.14045">Auditing Data Membership in Reinforcement Learning With Verifiable Rewards</a></div>
+        <div class="pub-authors">Yule Liu, Heyi Zhang, Jinyi Zheng, <strong>Zhen Sun</strong>, Zifan Peng, Jiaheng Wei, Tianshuo Cong, Yilong Yang, Xinlei He.</div>
+      </div>
+    </div>
+
+    <div class="pub-entry pub-entry--extra is-hidden">
       <div class="pub-meta">
         <a class="pub-venue-logo" href="https://iclr.cc/Conferences/2026" aria-label="ICLR 2026 website"><img src="{{ '/images/conferences/iclr-2026.svg' | relative_url }}" alt="" loading="lazy" decoding="async"></a>
         <div class="pub-meta__text"><span class="pub-year">2026</span><span class="pub-venue">ICLR</span></div>
